@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-15">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-api-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-api-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-chrome-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-chrome-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-chromium-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-chromium-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-devtools-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-devtools-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-devtools-v85-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-devtools-v85-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-devtools-v88-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-devtools-v88-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-devtools-v89-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-devtools-v89-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-devtools-v90-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-devtools-v90-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-devtools-v91-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-devtools-v91-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-edge-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-edge-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-firefox-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-firefox-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-firefox-xpi-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-firefox-xpi-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-http-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-http-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-ie-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-ie-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-java-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-java-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-json-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-json-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-opera-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-opera-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-remote-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-remote-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-safari-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-safari-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-support-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/selenium-support-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/async-http-client-2.12.3.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/async-http-client-netty-utils-2.12.3.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/auto-common-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/auto-service-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/auto-service-annotations-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/byte-buddy-1.11.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/checker-qual-3.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/error_prone_annotations-2.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/guava-30.1.1-jre.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/jakarta.activation-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/jcommander-1.81.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/jtoml-2.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/netty-buffer-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/netty-codec-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/netty-codec-http-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/netty-codec-socks-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/netty-common-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/netty-handler-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/netty-handler-proxy-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/netty-reactive-streams-2.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/netty-resolver-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/netty-transport-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/netty-transport-native-epoll-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/netty-transport-native-kqueue-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/netty-transport-native-unix-common-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/opentelemetry-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/opentelemetry-api-metrics-1.2.0-alpha.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/opentelemetry-context-1.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/opentelemetry-exporter-logging-1.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/opentelemetry-sdk-1.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/opentelemetry-sdk-common-1.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/opentelemetry-sdk-extension-autoconfigure-1.2.0-alpha.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/opentelemetry-sdk-metrics-1.2.0-alpha.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/opentelemetry-sdk-trace-1.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/opentelemetry-semconv-1.2.0-alpha.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/reactive-streams-1.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 4.x/lib/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
