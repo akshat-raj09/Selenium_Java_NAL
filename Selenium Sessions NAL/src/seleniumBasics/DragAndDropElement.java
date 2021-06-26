@@ -14,7 +14,7 @@ public class DragAndDropElement {
 		System.setProperty("webdriver.chrome.driver", "D:\\Data\\Study Material\\Java\\selenium browser drivers\\chromedriver.exe");
 		WebDriver chrome = new ChromeDriver();
 		
-//		Maximize the browser window. When we maximize the window the below code throws move target out of bounds error.
+//		Maximize the browser window. When we maximize the window the below code throws move target out of bounds error. This error can be resolved by using javascriptExecutor to automatically scrolldown the webpage some points using javascript code.
 //		chrome.manage().window().maximize();
 		
 		// Delete all cookies.
