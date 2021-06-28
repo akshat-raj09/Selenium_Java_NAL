@@ -10,7 +10,6 @@
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/libs/byte-buddy-1.8.15.jar"/>
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/libs/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/libs/guava-25.0-jre.jar"/>
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/commons-io-2.10.0/commons-io-2.10.0.jar"/>
@@ -18,5 +17,6 @@
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/commons-io-2.10.0/commons-io-2.10.0-sources.jar"/>
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/commons-io-2.10.0/commons-io-2.10.0-tests.jar"/>
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/commons-io-2.10.0/commons-io-2.10.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/libs/guava-25.0-jre.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
