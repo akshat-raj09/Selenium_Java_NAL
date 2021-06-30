@@ -18,5 +18,18 @@
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/commons-io-2.10.0/commons-io-2.10.0-tests.jar"/>
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/commons-io-2.10.0/commons-io-2.10.0-test-sources.jar"/>
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium webdriver 3.x/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/webdriver manager/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/webdriver manager/commons-compress-1.20.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/webdriver manager/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/webdriver manager/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/webdriver manager/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/webdriver manager/httpclient5-5.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/webdriver manager/httpcore5-5.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/webdriver manager/httpcore5-h2-5.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/webdriver manager/jarchivelib-1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/webdriver manager/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/webdriver manager/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/webdriver manager/webdrivermanager-4.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/htmlunit-driver-2.50.0-jar-with-dependencies.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
