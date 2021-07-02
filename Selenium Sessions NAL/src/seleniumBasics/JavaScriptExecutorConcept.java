@@ -197,4 +197,13 @@ public class JavaScriptExecutorConcept {
     }
     
     
+    // This method will select the specified date from the date picker using JavascriptExecutor.
+    public static void selectDateByJS(WebDriver driver, WebElement element, String dateValue){
+    	
+    	JavascriptExecutor js = ((JavascriptExecutor) driver);
+    	js.executeScript("arguments[0].setAttribute('value','" + dateValue + "');", element);
+    	
+    }
+    
+    
 }
