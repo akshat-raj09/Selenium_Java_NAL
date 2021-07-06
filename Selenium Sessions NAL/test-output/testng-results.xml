@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-06T23:01:02 IST" name="Default suite" finished-at="2021-07-06T23:01:02 IST" duration-ms="135">
+    <groups>
+    </groups>
+    <test started-at="2021-07-06T23:01:02 IST" name="Default test" finished-at="2021-07-06T23:01:02 IST" duration-ms="135">
+      <class name="com.testNG.testNgAnnotations">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="setup" finished-at="2021-07-06T23:01:02 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="launchBrowser" finished-at="2021-07-06T23:01:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="login" finished-at="2021-07-06T23:01:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="enterUrl()[pri:0, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="enterUrl" finished-at="2021-07-06T23:01:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method signature="googleTitleTest()[pri:1, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="googleTitleTest" finished-at="2021-07-06T23:01:02 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="logout" finished-at="2021-07-06T23:01:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="enterUrl()[pri:0, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="enterUrl" finished-at="2021-07-06T23:01:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method signature="googleLogoTest()[pri:2, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="googleLogoTest" finished-at="2021-07-06T23:01:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogoTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="logout" finished-at="2021-07-06T23:01:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="enterUrl()[pri:0, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="enterUrl" finished-at="2021-07-06T23:01:02 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method signature="searchTest()[pri:3, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="searchTest" finished-at="2021-07-06T23:01:02 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="logout" finished-at="2021-07-06T23:01:02 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="deleteAllCookies()[pri:0, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="deleteAllCookies" finished-at="2021-07-06T23:01:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:02 IST" name="closeBrowser" finished-at="2021-07-06T23:01:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="generateTestReport()[pri:0, instance:com.testNG.testNgAnnotations@34e9fd99]" started-at="2021-07-06T23:01:03 IST" name="generateTestReport" finished-at="2021-07-06T23:01:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestReport -->
+      </class> <!-- com.testNG.testNgAnnotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
