@@ -32,5 +32,6 @@
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/webdriver manager/webdrivermanager-4.4.3.jar"/>
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/htmlunit-driver-2.50.0-jar-with-dependencies.jar"/>
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/SiKuLi/sikulixapi-2.0.5-win.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
