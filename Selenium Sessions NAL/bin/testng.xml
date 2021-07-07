@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- TestNG Xml Template file that is used to automatically execute all the classes present in the project that are inserted into this Xml file  -->
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Basics Test Automation Suite" guice-stage="DEVELOPMENT">
+
+	<test name="Different TestNG Feature Test">
+
+		<classes>
+			<class name="com.testNG.TestNgAnnotations"/>
+			<class name="com.testNG.TestNgBasics"/>
+			<class name="com.testNG.TestNgGroups"/>
+			<class name="com.testNG.DependsOnMethods"/>
+			<class name="com.testNG.InvocationCount"/>
+			<class name="com.testNG.TimeOut"/>
+			<class name="com.testNG.ExpectedExceptions"/>
+			<class name="com.testNG.AssertionOfTestCase"/>
+		</classes>
+
+	</test> <!-- Different TestNG Feature Test -->
+
+</suite> <!-- TestNG Basics Test Automation Suite -->
