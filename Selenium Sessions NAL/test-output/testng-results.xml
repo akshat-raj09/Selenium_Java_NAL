@@ -1,53 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-07T18:00:26 IST" name="Default suite" finished-at="2021-07-07T18:00:26 IST" duration-ms="115">
+  <suite started-at="2021-07-07T18:15:18 IST" name="Default suite" finished-at="2021-07-07T18:15:20 IST" duration-ms="2096">
     <groups>
+      <group name="time out attribute test">
+        <method signature="TimeOut.infiniteLoopTest()[pri:1, instance:com.testNG.TimeOut@f6efaab]" name="infiniteLoopTest" class="com.testNG.TimeOut"/>
+      </group> <!-- time out attribute test -->
     </groups>
-    <test started-at="2021-07-07T18:00:26 IST" name="Default test" finished-at="2021-07-07T18:00:26 IST" duration-ms="115">
-      <class name="com.testNG.InvocationCount">
-        <test-method signature="sum()[pri:0, instance:com.testNG.InvocationCount@f6efaab]" started-at="2021-07-07T18:00:26 IST" name="sum" finished-at="2021-07-07T18:00:26 IST" duration-ms="13" status="PASS">
+    <test started-at="2021-07-07T18:15:18 IST" name="Default test" finished-at="2021-07-07T18:15:20 IST" duration-ms="2096">
+      <class name="com.testNG.TimeOut">
+        <test-method signature="infiniteLoopTest()[pri:1, instance:com.testNG.TimeOut@f6efaab]" started-at="2021-07-07T18:15:18 IST" name="infiniteLoopTest" finished-at="2021-07-07T18:15:20 IST" duration-ms="2031" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method com.testNG.TimeOut.infiniteLoopTest() didn't finish within the time-out 2000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.testNG.TimeOut.infiniteLoopTest() didn't finish within the time-out 2000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.testNG.InvocationCount@f6efaab]" started-at="2021-07-07T18:00:26 IST" name="sum" finished-at="2021-07-07T18:00:26 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.testNG.InvocationCount@f6efaab]" started-at="2021-07-07T18:00:26 IST" name="sum" finished-at="2021-07-07T18:00:26 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.testNG.InvocationCount@f6efaab]" started-at="2021-07-07T18:00:26 IST" name="sum" finished-at="2021-07-07T18:00:26 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.testNG.InvocationCount@f6efaab]" started-at="2021-07-07T18:00:26 IST" name="sum" finished-at="2021-07-07T18:00:26 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.testNG.InvocationCount@f6efaab]" started-at="2021-07-07T18:00:26 IST" name="sum" finished-at="2021-07-07T18:00:26 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.testNG.InvocationCount@f6efaab]" started-at="2021-07-07T18:00:26 IST" name="sum" finished-at="2021-07-07T18:00:26 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.testNG.InvocationCount@f6efaab]" started-at="2021-07-07T18:00:26 IST" name="sum" finished-at="2021-07-07T18:00:26 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.testNG.InvocationCount@f6efaab]" started-at="2021-07-07T18:00:26 IST" name="sum" finished-at="2021-07-07T18:00:26 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.testNG.InvocationCount@f6efaab]" started-at="2021-07-07T18:00:26 IST" name="sum" finished-at="2021-07-07T18:00:26 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-      </class> <!-- com.testNG.InvocationCount -->
+        </test-method> <!-- infiniteLoopTest -->
+      </class> <!-- com.testNG.TimeOut -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
