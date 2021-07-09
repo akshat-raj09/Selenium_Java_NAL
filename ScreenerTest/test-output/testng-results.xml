@@ -1,49 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-08T19:26:32 IST" name="Default suite" finished-at="2021-07-08T19:27:42 IST" duration-ms="70347">
+  <suite started-at="2021-07-09T17:09:12 IST" name="Screener.in Test Automation Suite" finished-at="2021-07-09T17:11:52 IST" duration-ms="160123">
     <groups>
     </groups>
-    <test started-at="2021-07-08T19:26:32 IST" name="Default test" finished-at="2021-07-08T19:27:42 IST" duration-ms="70347">
-      <class name="com.screener.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@20deea7f]" started-at="2021-07-08T19:26:32 IST" name="setup" finished-at="2021-07-08T19:27:16 IST" duration-ms="43889" status="PASS">
+    <test started-at="2021-07-09T17:09:12 IST" name="Screener.in different pages Test" finished-at="2021-07-09T17:11:52 IST" duration-ms="160123">
+      <class name="com.screener.qa.testcases.SignupPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@5876a9af]" started-at="2021-07-09T17:11:09 IST" name="setup" finished-at="2021-07-09T17:11:18 IST" duration-ms="9377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.screener.qa.testcases.LoginPageTest@20deea7f]" started-at="2021-07-08T19:27:16 IST" name="loginPageTitleTest" finished-at="2021-07-08T19:27:16 IST" duration-ms="67" status="PASS">
+        <test-method signature="signupPageTitleTest()[pri:1, instance:com.screener.qa.testcases.SignupPageTest@5876a9af]" started-at="2021-07-09T17:11:18 IST" name="signupPageTitleTest" finished-at="2021-07-09T17:11:18 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@5876a9af]" started-at="2021-07-09T17:11:18 IST" name="tearDown" finished-at="2021-07-09T17:11:21 IST" duration-ms="2431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@5876a9af]" started-at="2021-07-09T17:11:21 IST" name="setup" finished-at="2021-07-09T17:11:27 IST" duration-ms="6169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fillCreateAccountFormTest()[pri:2, instance:com.screener.qa.testcases.SignupPageTest@5876a9af]" started-at="2021-07-09T17:11:27 IST" name="fillCreateAccountFormTest" finished-at="2021-07-09T17:11:27 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillCreateAccountFormTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@5876a9af]" started-at="2021-07-09T17:11:27 IST" name="tearDown" finished-at="2021-07-09T17:11:30 IST" duration-ms="2447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@5876a9af]" started-at="2021-07-09T17:11:30 IST" name="setup" finished-at="2021-07-09T17:11:36 IST" duration-ms="6153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateCreateAccountBtnTextTest()[pri:3, instance:com.screener.qa.testcases.SignupPageTest@5876a9af]" started-at="2021-07-09T17:11:36 IST" name="validateCreateAccountBtnTextTest" finished-at="2021-07-09T17:11:36 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateAccountBtnTextTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@5876a9af]" started-at="2021-07-09T17:11:36 IST" name="tearDown" finished-at="2021-07-09T17:11:39 IST" duration-ms="3289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@5876a9af]" started-at="2021-07-09T17:11:39 IST" name="setup" finished-at="2021-07-09T17:11:49 IST" duration-ms="10129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchCompanyFieldEnabledTest()[pri:4, instance:com.screener.qa.testcases.SignupPageTest@5876a9af]" started-at="2021-07-09T17:11:49 IST" name="searchCompanyFieldEnabledTest" finished-at="2021-07-09T17:11:50 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCompanyFieldEnabledTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@5876a9af]" started-at="2021-07-09T17:11:50 IST" name="tearDown" finished-at="2021-07-09T17:11:52 IST" duration-ms="2417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.screener.qa.testcases.SignupPageTest -->
+      <class name="com.screener.qa.testcases.ScreensPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@59309333]" started-at="2021-07-09T17:10:35 IST" name="setup" finished-at="2021-07-09T17:10:43 IST" duration-ms="8196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateScreensPageTitleTest()[pri:1, instance:com.screener.qa.testcases.ScreensPageTest@59309333]" started-at="2021-07-09T17:10:43 IST" name="validateScreensPageTitleTest" finished-at="2021-07-09T17:10:43 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateScreensPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@59309333]" started-at="2021-07-09T17:10:43 IST" name="tearDown" finished-at="2021-07-09T17:10:45 IST" duration-ms="2382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@59309333]" started-at="2021-07-09T17:10:45 IST" name="setup" finished-at="2021-07-09T17:10:53 IST" duration-ms="7841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUserNameLabelTest()[pri:2, instance:com.screener.qa.testcases.ScreensPageTest@59309333]" started-at="2021-07-09T17:10:53 IST" name="validateUserNameLabelTest" finished-at="2021-07-09T17:10:53 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserNameLabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@59309333]" started-at="2021-07-09T17:10:53 IST" name="tearDown" finished-at="2021-07-09T17:10:57 IST" duration-ms="3275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@59309333]" started-at="2021-07-09T17:10:57 IST" name="setup" finished-at="2021-07-09T17:11:06 IST" duration-ms="9379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatecreateScreenLinkTextTest()[pri:3, instance:com.screener.qa.testcases.ScreensPageTest@59309333]" started-at="2021-07-09T17:11:06 IST" name="validatecreateScreenLinkTextTest" finished-at="2021-07-09T17:11:06 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecreateScreenLinkTextTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@59309333]" started-at="2021-07-09T17:11:06 IST" name="tearDown" finished-at="2021-07-09T17:11:09 IST" duration-ms="2545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.screener.qa.testcases.ScreensPageTest -->
+      <class name="com.screener.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@1ab3a8c8]" started-at="2021-07-09T17:09:12 IST" name="setup" finished-at="2021-07-09T17:09:29 IST" duration-ms="17383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.screener.qa.testcases.LoginPageTest@1ab3a8c8]" started-at="2021-07-09T17:09:29 IST" name="loginPageTitleTest" finished-at="2021-07-09T17:09:29 IST" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@20deea7f]" started-at="2021-07-08T19:27:16 IST" name="tearDown" finished-at="2021-07-08T19:27:19 IST" duration-ms="3012" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@1ab3a8c8]" started-at="2021-07-09T17:09:29 IST" name="tearDown" finished-at="2021-07-09T17:09:32 IST" duration-ms="2474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@20deea7f]" started-at="2021-07-08T19:27:19 IST" name="setup" finished-at="2021-07-08T19:27:27 IST" duration-ms="8102" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@1ab3a8c8]" started-at="2021-07-09T17:09:32 IST" name="setup" finished-at="2021-07-09T17:09:42 IST" duration-ms="9592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="screenerImageLogoTest()[pri:2, instance:com.screener.qa.testcases.LoginPageTest@20deea7f]" started-at="2021-07-08T19:27:27 IST" name="screenerImageLogoTest" finished-at="2021-07-08T19:27:27 IST" duration-ms="523" status="PASS">
+        <test-method signature="screenerImageLogoTest()[pri:2, instance:com.screener.qa.testcases.LoginPageTest@1ab3a8c8]" started-at="2021-07-09T17:09:42 IST" name="screenerImageLogoTest" finished-at="2021-07-09T17:09:42 IST" duration-ms="332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenerImageLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@20deea7f]" started-at="2021-07-08T19:27:27 IST" name="tearDown" finished-at="2021-07-08T19:27:30 IST" duration-ms="2423" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@1ab3a8c8]" started-at="2021-07-09T17:09:42 IST" name="tearDown" finished-at="2021-07-09T17:09:44 IST" duration-ms="2377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@20deea7f]" started-at="2021-07-08T19:27:30 IST" name="setup" finished-at="2021-07-08T19:27:37 IST" duration-ms="7710" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@1ab3a8c8]" started-at="2021-07-09T17:09:44 IST" name="setup" finished-at="2021-07-09T17:09:51 IST" duration-ms="6971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:3, instance:com.screener.qa.testcases.LoginPageTest@20deea7f]" started-at="2021-07-08T19:27:37 IST" name="loginTest" finished-at="2021-07-08T19:27:39 IST" duration-ms="1957" status="PASS">
+        <test-method signature="loginTest()[pri:3, instance:com.screener.qa.testcases.LoginPageTest@1ab3a8c8]" started-at="2021-07-09T17:09:51 IST" name="loginTest" finished-at="2021-07-09T17:09:53 IST" duration-ms="1749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@20deea7f]" started-at="2021-07-08T19:27:39 IST" name="tearDown" finished-at="2021-07-08T19:27:42 IST" duration-ms="2511" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@1ab3a8c8]" started-at="2021-07-09T17:09:53 IST" name="tearDown" finished-at="2021-07-09T17:09:56 IST" duration-ms="3248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.screener.qa.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.screener.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.HomePageTest@9f116cc]" started-at="2021-07-09T17:09:56 IST" name="setup" finished-at="2021-07-09T17:10:08 IST" duration-ms="12136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateHomePageTitleTest()[pri:1, instance:com.screener.qa.testcases.HomePageTest@9f116cc]" started-at="2021-07-09T17:10:08 IST" name="validateHomePageTitleTest" finished-at="2021-07-09T17:10:08 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.HomePageTest@9f116cc]" started-at="2021-07-09T17:10:08 IST" name="tearDown" finished-at="2021-07-09T17:10:12 IST" duration-ms="3346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.HomePageTest@9f116cc]" started-at="2021-07-09T17:10:12 IST" name="setup" finished-at="2021-07-09T17:10:20 IST" duration-ms="8732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUserNameLabelTest()[pri:2, instance:com.screener.qa.testcases.HomePageTest@9f116cc]" started-at="2021-07-09T17:10:20 IST" name="validateUserNameLabelTest" finished-at="2021-07-09T17:10:21 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserNameLabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.HomePageTest@9f116cc]" started-at="2021-07-09T17:10:21 IST" name="tearDown" finished-at="2021-07-09T17:10:24 IST" duration-ms="3219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.HomePageTest@9f116cc]" started-at="2021-07-09T17:10:24 IST" name="setup" finished-at="2021-07-09T17:10:32 IST" duration-ms="8302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnScreensLinkTest()[pri:3, instance:com.screener.qa.testcases.HomePageTest@9f116cc]" started-at="2021-07-09T17:10:32 IST" name="clickOnScreensLinkTest" finished-at="2021-07-09T17:10:32 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnScreensLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.HomePageTest@9f116cc]" started-at="2021-07-09T17:10:32 IST" name="tearDown" finished-at="2021-07-09T17:10:35 IST" duration-ms="2497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.screener.qa.testcases.HomePageTest -->
+    </test> <!-- Screener.in different pages Test -->
+  </suite> <!-- Screener.in Test Automation Suite -->
 </testng-results>

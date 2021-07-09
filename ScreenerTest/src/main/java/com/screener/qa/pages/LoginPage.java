@@ -40,10 +40,10 @@ public class LoginPage extends TestBase {
 		
 	}
 	
-	public HomePage login() {
+	public HomePage login(String un, String pwd) {
 		
-		username.sendKeys(prop.getProperty("username"));
-		password.sendKeys(prop.getProperty("password"));
+		username.sendKeys(un);
+		password.sendKeys(pwd);
 		loginBtn.click();
 		
 		return new HomePage();
