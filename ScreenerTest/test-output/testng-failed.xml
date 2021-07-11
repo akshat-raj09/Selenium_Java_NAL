@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.screener.qa.testcases.ScreensPageTest">
+      <class name="com.screener.qa.testcases.CreateScreenPageTest">
         <methods>
           <include name="setup"/>
-          <include name="validatecreateScreenLinkTextTest"/>
+          <include name="validateScreensPageTitleTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.screener.qa.testcases.ScreensPageTest -->
+      </class> <!-- com.screener.qa.testcases.CreateScreenPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

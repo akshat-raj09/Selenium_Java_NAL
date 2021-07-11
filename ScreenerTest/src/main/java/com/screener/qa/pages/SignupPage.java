@@ -1,6 +1,7 @@
 package com.screener.qa.pages;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -11,15 +12,19 @@ public class SignupPage extends TestBase {
 	// Page Factory or Object Repository
 	
 		@FindBy(id="id_email")
+		@CacheLookup
 		WebElement email;
 		
 		@FindBy(id="id_email2")
+		@CacheLookup
 		WebElement reEnterEmail;
 		
 		@FindBy(id="id_password")
+		@CacheLookup
 		WebElement password;
 		
 		@FindBy(xpath="//button[@type='submit']")
+		@CacheLookup
 		WebElement createAccountBtn;
 		
 		@FindBy(xpath="//div[@id='desktop-search']//descendant::input[@class='u-full-width']")

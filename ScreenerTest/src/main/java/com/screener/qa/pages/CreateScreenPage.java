@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.screener.qa.base.TestBase;
 
-public class HomePage extends TestBase {
+public class CreateScreenPage extends TestBase {
 	
 	// Page Factory or object repository
 	
@@ -15,29 +15,34 @@ public class HomePage extends TestBase {
 	@CacheLookup
 	WebElement userNameLabel;
 	
-	@FindBy(xpath="//a[contains(text(),'Screens')]")
+	@FindBy(xpath="//button[@type='submit' and @class='button-primary']")
 	@CacheLookup
-	WebElement screensLink;
+	WebElement runQueryBtn;
 	
+	@FindBy(xpath="//textarea[@name='query']")
+	@CacheLookup
+	WebElement queryField;
+		
 	// Initializing the page objects
-	
-	public HomePage() {
+		
+	public CreateScreenPage() {
 		PageFactory.initElements(driver, this);
 	}
 	
 	// Actions
 	
-	public String validateHomePageTitle() {
+	public String validateCreateScreenPageTitle() {
 		return driver.getTitle();
 	}
-	
+		
 	public String validateUserNameLabel() {
 		return userNameLabel.getText().trim();
 	}
 	
-	public ScreensPage clickOnScreensLink() {
-		screensLink.click();
-		return new ScreensPage();
+	public void validateCreateNewScreen(String query) {
+		queryField.sendKeys(query);
+		runQueryBtn.click();
 	}
+		
 
 }

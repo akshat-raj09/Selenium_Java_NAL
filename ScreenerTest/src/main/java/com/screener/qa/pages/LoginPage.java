@@ -1,6 +1,7 @@
 package com.screener.qa.pages;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -11,12 +12,15 @@ public class LoginPage extends TestBase {
 	// Page Factory or Object Repository
 	
 	@FindBy(id="id_username")
+	@CacheLookup
 	WebElement username;
 	
 	@FindBy(id="id_password")
+	@CacheLookup
 	WebElement password;
 	
 	@FindBy(xpath="//button[@type='submit']")
+	@CacheLookup
 	WebElement loginBtn;
 	
 	@FindBy(xpath="//a[@class='logo-holder']//child::img[@class='logo' and @alt='Screener Logo']")
