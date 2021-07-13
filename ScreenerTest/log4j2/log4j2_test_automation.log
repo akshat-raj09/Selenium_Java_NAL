@@ -1,0 +1,17 @@
+[INFO ] 2021-07-13 15:11:27.464 [main] TestBase - Browser started
+[INFO ] 2021-07-13 15:11:27.896 [main] TestBase - Maximized window & deleted all cookies
+[INFO ] 2021-07-13 15:11:31.356 [main] TestBase - Opened URL
+[INFO ] 2021-07-13 15:11:31.535 [main] LoginPageTest - login page title test started
+[INFO ] 2021-07-13 15:11:31.562 [main] LoginPageTest - Login page title test ended
+[INFO ] 2021-07-13 15:11:34.137 [main] LoginPageTest - Browser closed
+[INFO ] 2021-07-13 15:11:35.971 [main] TestBase - Browser started
+[INFO ] 2021-07-13 15:11:37.318 [main] TestBase - Maximized window & deleted all cookies
+[INFO ] 2021-07-13 15:11:40.147 [main] TestBase - Opened URL
+[INFO ] 2021-07-13 15:11:40.150 [main] LoginPageTest - Login page logo test started
+[INFO ] 2021-07-13 15:11:40.437 [main] LoginPageTest - login page logo test ended
+[INFO ] 2021-07-13 15:11:42.827 [main] LoginPageTest - Browser closed
+[INFO ] 2021-07-13 15:11:45.207 [main] TestBase - Browser started
+[INFO ] 2021-07-13 15:11:45.956 [main] TestBase - Maximized window & deleted all cookies
+[INFO ] 2021-07-13 15:11:48.416 [main] TestBase - Opened URL
+[INFO ] 2021-07-13 15:11:50.279 [main] LoginPageTest - logged into website
+[INFO ] 2021-07-13 15:11:52.622 [main] LoginPageTest - Browser closed

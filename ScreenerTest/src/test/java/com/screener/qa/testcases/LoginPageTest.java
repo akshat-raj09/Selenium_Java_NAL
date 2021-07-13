@@ -1,5 +1,7 @@
 package com.screener.qa.testcases;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -11,6 +13,9 @@ import com.screener.qa.pages.LoginPage;
 
 public class LoginPageTest extends TestBase{
 	
+	//Initialize Log4j instance
+    private static final Logger log =  LogManager.getLogger(LoginPageTest.class);
+    
 	LoginPage loginPage;
 	HomePage homePage;
 	
@@ -31,16 +36,20 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=1)
 	public void loginPageTitleTest() {
 		
+		log.info("login page title test started");
 		String title = loginPage.validateLoginPageTitle();
 		Assert.assertEquals(title, "Login - Screener", "Title does not match");
+		log.info("Login page title test ended");
 		
 	}
 	
 	@Test(priority=2)
 	public void screenerImageLogoTest() {
 		
+		log.info("Login page logo test started");
 		boolean flag = loginPage.validateScreenerLogo();
 		Assert.assertTrue(flag, "Screener logo on login page is not visible.");
+		log.info("login page logo test ended");
 		
 	}
 	
@@ -49,6 +58,7 @@ public class LoginPageTest extends TestBase{
 	public void loginTest() {
 		
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		log.info("logged into website");
 		
 	}
 	
@@ -63,6 +73,7 @@ public class LoginPageTest extends TestBase{
 			e.printStackTrace();
 		}
 		driver.quit();
+		log.info("Browser closed");
 		
 	}
 

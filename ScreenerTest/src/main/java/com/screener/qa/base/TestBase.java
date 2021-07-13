@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -15,7 +17,11 @@ import com.screener.qa.util.WebEventListener;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+
 public class TestBase {
+	
+	//Initialize Log4j instance
+    private static final Logger log =  LogManager.getLogger(TestBase.class);
 	
 	public static WebDriver driver;
 	public static Properties prop;
@@ -52,6 +58,8 @@ public class TestBase {
 			driver = new EdgeDriver();
 		}
 		
+		log.info("Browser started");
+		
 		e_driver = new EventFiringWebDriver(driver);
 		eventListener = new WebEventListener();
 		// Now register object of WebEventLister with object of EventFiringWebDriver.
@@ -62,8 +70,10 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT_TIMEOUT, TimeUnit.SECONDS);
+		log.info("Maximized window & deleted all cookies");
 		
 		driver.get(prop.getProperty("url"));
+		log.info("Opened URL");
 		
 	}
 
