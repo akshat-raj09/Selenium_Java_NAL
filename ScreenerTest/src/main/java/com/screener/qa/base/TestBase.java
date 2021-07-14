@@ -12,6 +12,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.screener.qa.util.TestUtil;
 import com.screener.qa.util.WebEventListener;
 
@@ -19,6 +22,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class TestBase {
+	
+	public static ExtentSparkReporter sparkReporter;
+	public static ExtentReports extent;
+	public static ExtentTest test;
 	
 	//Initialize Log4j instance
     private static final Logger log =  LogManager.getLogger(TestBase.class);

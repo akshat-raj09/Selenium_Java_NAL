@@ -1,5 +1,7 @@
 package com.screener.qa.testcases;
 
+import java.lang.reflect.Method;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
@@ -9,6 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
 import com.screener.qa.base.TestBase;
 import com.screener.qa.pages.CreateScreenPage;
 import com.screener.qa.pages.HomePage;
@@ -43,19 +46,27 @@ public class CreateScreenPageTest extends TestBase {
 	}
 	
 	@Test(priority=1)
-	public void validateCreateScreenPageTitleTest() {
+	public void validateCreateScreenPageTitleTest(Method method) {
 		
 		log.info("Create screen page title test started");
+		test.log(Status.INFO, method.getName() + ": Test is starting");
+		test.log(Status.INFO, "Fetched title of the webpage");
+		
 		Assert.assertEquals(createScreenPage.validateCreateScreenPageTitle(), "Stock Screener India - Screener", "Screens Page title does not match");
+		
 		log.info("Create screen page title test ended");
 		
 	}
 	
 	@Test(priority=2)
-	public void validateUserNameLabelTest() {
+	public void validateUserNameLabelTest(Method method) {
 		
 		log.info("Create screen page username label test started");
+		test.log(Status.INFO, method.getName() + ": Test is starting");
+		test.log(Status.INFO, "Fetched Username Label");
+		
 		Assert.assertEquals(screensPage.validateUserNameLabel(), "AKSHAT", "Username on screens page doesnot match");
+		
 		log.info("Create screen page username label test ended");
 		
 	}
@@ -69,10 +80,14 @@ public class CreateScreenPageTest extends TestBase {
 	}
 	
 	@Test(priority=3, dataProvider="getQueryTestData")
-	public void validateCreateNewScreenTest(String query) {
+	public void validateCreateNewScreenTest(String query, Method method) {
 		
 		log.info("Create screen page create new screen test started");
+		test.log(Status.INFO, method.getName() + ": Test is starting");
+		test.log(Status.INFO, "Running the test case with data: " + query);
+		
 		createScreenPage.validateCreateNewScreen(query);
+		
 		log.info("Create screen page create new screen test ended");
 		
 	}

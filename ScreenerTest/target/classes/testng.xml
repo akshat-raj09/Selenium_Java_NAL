@@ -9,6 +9,10 @@
 
 <suite name="Screener.in Test Automation Suite" guice-stage="DEVELOPMENT">
 
+	<listeners>
+		<listener class-name="com.screener.qa.ExtentReport.TestNgListenerImplementation" />
+	</listeners>
+
 	<test name="Screener.in different pages Test">
 
 		<classes>
