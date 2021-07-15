@@ -1,4 +1,4 @@
-package com.screener.qa.ExtentReport;
+package com.screener.qa.Report.ExtentReport;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.screener.qa.ExtentReport;
+package com.screener.qa.Report.ExtentReport;
 
 import java.io.IOException;
 
@@ -13,9 +13,9 @@ import com.aventstack.extentreports.Status;
 import com.screener.qa.base.TestBase;
 import com.screener.qa.util.TestUtil;
 
-public class TestNgListenerImplementation extends TestBase implements ITestListener {
+public class TestNgExtentListener extends TestBase implements ITestListener {
 
-	private static final Logger log =  LogManager.getLogger(TestNgListenerImplementation.class);
+	private static final Logger log =  LogManager.getLogger(TestNgExtentListener.class);
 	
 	@Override
 	public void onTestStart(ITestResult result) {
