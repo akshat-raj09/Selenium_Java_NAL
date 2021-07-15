@@ -46,8 +46,8 @@ public class TestNgExtentListener extends TestBase implements ITestListener {
 		String path = null;
 		try {
 			path = TestUtil.takeScreenshotAtEndOfTest();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		} 
+		catch (IOException e) {
 			e.printStackTrace();
 		}
 		test.addScreenCaptureFromPath(path, "Failed Test Screenshot");
@@ -84,7 +84,7 @@ public class TestNgExtentListener extends TestBase implements ITestListener {
 	public void onStart(ITestContext context) {
 		
 		// before test execution starts : call setupExtentReport()
-		log.info("Test Cases are about to start");
+		log.info("Test Cases are about to start "+ context.getName());
 		extent = ExtentSetup.setupExtentReport();
 		
 	}
@@ -93,6 +93,7 @@ public class TestNgExtentListener extends TestBase implements ITestListener {
 	@Override
 	public void onFinish(ITestContext context) {
 		
+		log.info("Test Cases execution has finished "+ context.getName());
 		// close extent
 		extent.flush();
 		
