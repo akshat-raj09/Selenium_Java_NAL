@@ -1,0 +1,5 @@
+com\screener\qa\testcases\SignupPageTest.class
+com\screener\qa\testcases\LoginPageTest.class
+com\screener\qa\testcases\ScreensPageTest.class
+com\screener\qa\testcases\CreateScreenPageTest.class
+com\screener\qa\testcases\HomePageTest.class

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="12" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-15T16:53:40 IST" name="Screener.in Test Automation Suite" finished-at="2021-07-15T16:55:44 IST" duration-ms="123587">
+    <groups>
+    </groups>
+    <test started-at="2021-07-15T16:53:40 IST" name="Screener.in different pages Test" finished-at="2021-07-15T16:55:44 IST" duration-ms="123587">
+      <class name="com.screener.qa.testcases.SignupPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@a6e4897]" started-at="2021-07-15T16:55:11 IST" name="setup" finished-at="2021-07-15T16:55:16 IST" duration-ms="4633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signupPageTitleTest(java.lang.reflect.Method)[pri:1, instance:com.screener.qa.testcases.SignupPageTest@a6e4897]" started-at="2021-07-15T16:55:16 IST" name="signupPageTitleTest" description="Verifying title of signup page." finished-at="2021-07-15T16:55:16 IST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.SignupPageTest.signupPageTitleTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@a6e4897]" started-at="2021-07-15T16:55:16 IST" name="tearDown" finished-at="2021-07-15T16:55:19 IST" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@a6e4897]" started-at="2021-07-15T16:55:19 IST" name="setup" finished-at="2021-07-15T16:55:24 IST" duration-ms="4611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fillCreateAccountFormTest(java.lang.reflect.Method)[pri:2, instance:com.screener.qa.testcases.SignupPageTest@a6e4897]" started-at="2021-07-15T16:55:24 IST" name="fillCreateAccountFormTest" description="filling create account form on signup page." finished-at="2021-07-15T16:55:24 IST" duration-ms="485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.SignupPageTest.fillCreateAccountFormTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillCreateAccountFormTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@a6e4897]" started-at="2021-07-15T16:55:24 IST" name="tearDown" finished-at="2021-07-15T16:55:28 IST" duration-ms="3241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@a6e4897]" started-at="2021-07-15T16:55:28 IST" name="setup" finished-at="2021-07-15T16:55:32 IST" duration-ms="4230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateCreateAccountBtnTextTest(java.lang.reflect.Method)[pri:3, instance:com.screener.qa.testcases.SignupPageTest@a6e4897]" started-at="2021-07-15T16:55:32 IST" name="validateCreateAccountBtnTextTest" description="verifying create account button text on signup page." finished-at="2021-07-15T16:55:32 IST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.SignupPageTest.validateCreateAccountBtnTextTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateAccountBtnTextTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@a6e4897]" started-at="2021-07-15T16:55:32 IST" name="tearDown" finished-at="2021-07-15T16:55:35 IST" duration-ms="3241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@a6e4897]" started-at="2021-07-15T16:55:35 IST" name="setup" finished-at="2021-07-15T16:55:40 IST" duration-ms="4983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchCompanyFieldEnabledTest(java.lang.reflect.Method)[pri:4, instance:com.screener.qa.testcases.SignupPageTest@a6e4897]" started-at="2021-07-15T16:55:40 IST" name="searchCompanyFieldEnabledTest" description="verifying search company input field is enabled on signup page." finished-at="2021-07-15T16:55:40 IST" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.SignupPageTest.searchCompanyFieldEnabledTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCompanyFieldEnabledTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.SignupPageTest@a6e4897]" started-at="2021-07-15T16:55:40 IST" name="tearDown" finished-at="2021-07-15T16:55:44 IST" duration-ms="3231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.screener.qa.testcases.SignupPageTest -->
+      <class name="com.screener.qa.testcases.ScreensPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@7ccfdaef]" started-at="2021-07-15T16:54:34 IST" name="setup" finished-at="2021-07-15T16:54:40 IST" duration-ms="5772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateScreensPageTitleTest(java.lang.reflect.Method)[pri:1, instance:com.screener.qa.testcases.ScreensPageTest@7ccfdaef]" started-at="2021-07-15T16:54:40 IST" name="validateScreensPageTitleTest" description="Verifying title of screens page." finished-at="2021-07-15T16:54:40 IST" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.ScreensPageTest.validateScreensPageTitleTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateScreensPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@7ccfdaef]" started-at="2021-07-15T16:54:40 IST" name="tearDown" finished-at="2021-07-15T16:54:43 IST" duration-ms="3252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@7ccfdaef]" started-at="2021-07-15T16:54:43 IST" name="setup" finished-at="2021-07-15T16:54:49 IST" duration-ms="5758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUserNameLabelTest(java.lang.reflect.Method)[pri:2, instance:com.screener.qa.testcases.ScreensPageTest@7ccfdaef]" started-at="2021-07-15T16:54:49 IST" name="validateUserNameLabelTest" description="Verifying username label on screens page." finished-at="2021-07-15T16:54:49 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.ScreensPageTest.validateUserNameLabelTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserNameLabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@7ccfdaef]" started-at="2021-07-15T16:54:49 IST" name="tearDown" finished-at="2021-07-15T16:54:53 IST" duration-ms="3247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@7ccfdaef]" started-at="2021-07-15T16:54:53 IST" name="setup" finished-at="2021-07-15T16:54:59 IST" duration-ms="6411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatecreateScreenLinkTextTest(java.lang.reflect.Method)[pri:3, instance:com.screener.qa.testcases.ScreensPageTest@7ccfdaef]" started-at="2021-07-15T16:54:59 IST" name="validatecreateScreenLinkTextTest" description="Verifying create screen link text on screens page." finished-at="2021-07-15T16:54:59 IST" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.ScreensPageTest.validatecreateScreenLinkTextTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecreateScreenLinkTextTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@7ccfdaef]" started-at="2021-07-15T16:54:59 IST" name="tearDown" finished-at="2021-07-15T16:55:02 IST" duration-ms="3255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@7ccfdaef]" started-at="2021-07-15T16:55:02 IST" name="setup" finished-at="2021-07-15T16:55:08 IST" duration-ms="5509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnCreateScreenLinkTest(java.lang.reflect.Method)[pri:4, instance:com.screener.qa.testcases.ScreensPageTest@7ccfdaef]" started-at="2021-07-15T16:55:08 IST" name="clickOnCreateScreenLinkTest" description="click on create screen link on screens page." finished-at="2021-07-15T16:55:08 IST" duration-ms="537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.ScreensPageTest.clickOnCreateScreenLinkTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCreateScreenLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.ScreensPageTest@7ccfdaef]" started-at="2021-07-15T16:55:08 IST" name="tearDown" finished-at="2021-07-15T16:55:11 IST" duration-ms="3086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.screener.qa.testcases.ScreensPageTest -->
+      <class name="com.screener.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setAllureEnvironment()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@31f295b6]" started-at="2021-07-15T16:53:40 IST" name="setAllureEnvironment" finished-at="2021-07-15T16:53:40 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAllureEnvironment -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@31f295b6]" started-at="2021-07-15T16:53:41 IST" name="setup" finished-at="2021-07-15T16:53:48 IST" duration-ms="6664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest(java.lang.reflect.Method)[pri:1, instance:com.screener.qa.testcases.LoginPageTest@31f295b6]" started-at="2021-07-15T16:53:48 IST" name="loginPageTitleTest" description="Verifying login page title." finished-at="2021-07-15T16:53:48 IST" duration-ms="234" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title does not match expected [Login - Screener1234] but found [Login - Screener]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title does not match expected [Login - Screener1234] but found [Login - Screener]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@31f295b6]" started-at="2021-07-15T16:53:49 IST" name="tearDown" finished-at="2021-07-15T16:53:51 IST" duration-ms="2342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@31f295b6]" started-at="2021-07-15T16:53:51 IST" name="setup" finished-at="2021-07-15T16:53:56 IST" duration-ms="4174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="screenerImageLogoTest(java.lang.reflect.Method)[pri:2, instance:com.screener.qa.testcases.LoginPageTest@31f295b6]" started-at="2021-07-15T16:53:56 IST" name="screenerImageLogoTest" description="Verifying screener logo on Login page." finished-at="2021-07-15T16:53:56 IST" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.LoginPageTest.screenerImageLogoTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenerImageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@31f295b6]" started-at="2021-07-15T16:53:56 IST" name="tearDown" finished-at="2021-07-15T16:53:59 IST" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@31f295b6]" started-at="2021-07-15T16:53:59 IST" name="setup" finished-at="2021-07-15T16:54:03 IST" duration-ms="4479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.reflect.Method)[pri:3, instance:com.screener.qa.testcases.LoginPageTest@31f295b6]" started-at="2021-07-15T16:54:03 IST" name="loginTest" description="Logging in by filling correct username &amp; password" finished-at="2021-07-15T16:54:05 IST" duration-ms="1250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.LoginPageTest.loginTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@31f295b6]" started-at="2021-07-15T16:54:05 IST" name="tearDown" finished-at="2021-07-15T16:54:08 IST" duration-ms="3285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.screener.qa.testcases.LoginPageTest -->
+      <class name="com.screener.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.HomePageTest@664212ab]" started-at="2021-07-15T16:54:08 IST" name="setup" finished-at="2021-07-15T16:54:13 IST" duration-ms="5054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateHomePageTitleTest(java.lang.reflect.Method)[pri:1, instance:com.screener.qa.testcases.HomePageTest@664212ab]" started-at="2021-07-15T16:54:13 IST" name="validateHomePageTitleTest" description="Verifying Home page title." finished-at="2021-07-15T16:54:13 IST" duration-ms="30" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.HomePageTest.validateHomePageTitleTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Home Page title does not match expected [Dashboard - Screener1234] but found [Dashboard - Screener]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Home Page title does not match expected [Dashboard - Screener1234] but found [Dashboard - Screener]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.screener.qa.testcases.HomePageTest.validateHomePageTitleTest(HomePageTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.HomePageTest@664212ab]" started-at="2021-07-15T16:54:14 IST" name="tearDown" finished-at="2021-07-15T16:54:17 IST" duration-ms="3230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.HomePageTest@664212ab]" started-at="2021-07-15T16:54:17 IST" name="setup" finished-at="2021-07-15T16:54:22 IST" duration-ms="5289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUserNameLabelTest(java.lang.reflect.Method)[pri:2, instance:com.screener.qa.testcases.HomePageTest@664212ab]" started-at="2021-07-15T16:54:22 IST" name="validateUserNameLabelTest" description="Verifying username label on home page." finished-at="2021-07-15T16:54:22 IST" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.HomePageTest.validateUserNameLabelTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserNameLabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.HomePageTest@664212ab]" started-at="2021-07-15T16:54:22 IST" name="tearDown" finished-at="2021-07-15T16:54:25 IST" duration-ms="3243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.HomePageTest@664212ab]" started-at="2021-07-15T16:54:25 IST" name="setup" finished-at="2021-07-15T16:54:31 IST" duration-ms="5426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnScreensLinkTest(java.lang.reflect.Method)[pri:3, instance:com.screener.qa.testcases.HomePageTest@664212ab]" started-at="2021-07-15T16:54:31 IST" name="clickOnScreensLinkTest" description="Verifying click on screens link on home page." finished-at="2021-07-15T16:54:31 IST" duration-ms="240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.HomePageTest.clickOnScreensLinkTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnScreensLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.HomePageTest@664212ab]" started-at="2021-07-15T16:54:31 IST" name="tearDown" finished-at="2021-07-15T16:54:34 IST" duration-ms="3246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.screener.qa.testcases.HomePageTest -->
+    </test> <!-- Screener.in different pages Test -->
+  </suite> <!-- Screener.in Test Automation Suite -->
+</testng-results>

@@ -1,0 +1,114 @@
+{
+  "total" : 14,
+  "items" : [ {
+    "uid" : "abb17c58c0649a06cf5e1d36724494e3",
+    "name" : "Story Name: To check login page title",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e9170dc704ef43ce8fe0699278f9c16c",
+    "name" : "Story Name: To check home page title",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d2617767b9c4ec6aade4c19028adf3a4",
+    "name" : "Story Name: To check screener logo on login page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "95c3155316d03b51b2c5e3cf5c2f31cf",
+    "name" : "Story Name: To check account login function",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a04da7a32c17c5cca44bca1ee3789960",
+    "name" : "Story Name: To validate username label on home page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e5d9a521abc7fdff36fdbf707182a476",
+    "name" : "Story Name: To click on screens link on home page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a50765f734424fc6a921923e21ed1522",
+    "name" : "Story Name: To verify title of screens page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "0ac2eb59ed073d5a0ce95e61bc50ebe9",
+    "name" : "Story Name: To validate username label on screens page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "0b97ac2bf7f1c9aa4c868510206a7c29",
+    "name" : "Story Name: To validate create screen link text on screens page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c9ed97ac514cfc539ea3ec1068854236",
+    "name" : "Story Name: To click on create screen link on screens page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

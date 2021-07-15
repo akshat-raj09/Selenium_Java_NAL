@@ -1,0 +1,270 @@
+{
+  "31087f15d6c52a13dda5739c49516ebb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7dbc6edab3ffda3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348324459,
+        "stop" : 1626348324940,
+        "duration" : 481
+      }
+    } ]
+  },
+  "7b17d6bf28c6a2bb62a6cee2d260ed95" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ebc7dea99f8fab7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348271331,
+        "stop" : 1626348271568,
+        "duration" : 237
+      }
+    } ]
+  },
+  "391e307e10f00465e38b0d591fc370bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66316d3d70923c6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348308312,
+        "stop" : 1626348308842,
+        "duration" : 530
+      }
+    } ]
+  },
+  "ad63a4c40d7d893633a520691c967564" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e5e342db09513b32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348280607,
+        "stop" : 1626348280657,
+        "duration" : 50
+      }
+    } ]
+  },
+  "9fe597d4170c85cfdf6cf09cc0747a7e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b7744f4bc917bf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348332456,
+        "stop" : 1626348332564,
+        "duration" : 108
+      }
+    } ]
+  },
+  "253473d39822db1b2e7ed11c9193678c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6dec943fa4b57d22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348236023,
+        "stop" : 1626348236188,
+        "duration" : 165
+      }
+    } ]
+  },
+  "e7aa9f89e2cce62683633d87624e563e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2f93a3a540cf9e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348289676,
+        "stop" : 1626348289782,
+        "duration" : 106
+      }
+    } ]
+  },
+  "ecfad2b513c4d55d0b2eee691544a954" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c24fcb8b36104c43",
+      "status" : "failed",
+      "statusDetails" : "Title does not match expected [Login - Screener1234] but found [Login - Screener]",
+      "time" : {
+        "start" : 1626348228573,
+        "stop" : 1626348229102,
+        "duration" : 529
+      }
+    } ]
+  },
+  "dcb937abe93b95a8b2b4b6d9f9628f3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3015b4350c6d3c04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348299452,
+        "stop" : 1626348299538,
+        "duration" : 86
+      }
+    } ]
+  },
+  "c0a323474f192127a8fa81fea5487244" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe33c742c63a3b70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348340803,
+        "stop" : 1626348340875,
+        "duration" : 72
+      }
+    } ]
+  },
+  "97d911a7f8674bb43ddf2176290ffa96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39de302f909f0f30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348262578,
+        "stop" : 1626348262655,
+        "duration" : 77
+      }
+    } ]
+  },
+  "a92902c513b5e33a4b104d956daf63cb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9bcbf7d88619a20",
+      "status" : "failed",
+      "statusDetails" : "Home Page title does not match expected [Dashboard - Screener1234] but found [Dashboard - Screener]",
+      "time" : {
+        "start" : 1626348253511,
+        "stop" : 1626348253779,
+        "duration" : 268
+      }
+    } ]
+  },
+  "a3ae85b94adc56e6355ef01698b6f68d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f08763f4c6419f7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348243913,
+        "stop" : 1626348245158,
+        "duration" : 1245
+      }
+    } ]
+  },
+  "cfdd66d925a21ef9065a847fcfc5b3a9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "870de0af0116854d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348316570,
+        "stop" : 1626348316599,
+        "duration" : 29
+      }
+    } ]
+  }
+}

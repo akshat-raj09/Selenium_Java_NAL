@@ -1,0 +1,211 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Screener.in Test Automation Suite",
+    "children" : [ {
+      "name" : "Screener.in different pages Test",
+      "children" : [ {
+        "name" : "com.screener.qa.testcases.LoginPageTest",
+        "children" : [ {
+          "name" : "Verifying login page title.",
+          "uid" : "c24fcb8b36104c43",
+          "parentUid" : "6edd9be3db2ecaf47986810756fb84be",
+          "status" : "failed",
+          "time" : {
+            "start" : 1626348228573,
+            "stop" : 1626348229102,
+            "duration" : 529
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Verifying screener logo on Login page.",
+          "uid" : "6dec943fa4b57d22",
+          "parentUid" : "6edd9be3db2ecaf47986810756fb84be",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626348236023,
+            "stop" : 1626348236188,
+            "duration" : 165
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Logging in by filling correct username & password",
+          "uid" : "f08763f4c6419f7c",
+          "parentUid" : "6edd9be3db2ecaf47986810756fb84be",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626348243913,
+            "stop" : 1626348245158,
+            "duration" : 1245
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6edd9be3db2ecaf47986810756fb84be"
+      }, {
+        "name" : "com.screener.qa.testcases.HomePageTest",
+        "children" : [ {
+          "name" : "Verifying Home page title.",
+          "uid" : "e9bcbf7d88619a20",
+          "parentUid" : "3fbd5224586903e4883835aa0a7cce6d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1626348253511,
+            "stop" : 1626348253779,
+            "duration" : 268
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Verifying username label on home page.",
+          "uid" : "39de302f909f0f30",
+          "parentUid" : "3fbd5224586903e4883835aa0a7cce6d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626348262578,
+            "stop" : 1626348262655,
+            "duration" : 77
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Verifying click on screens link on home page.",
+          "uid" : "4ebc7dea99f8fab7",
+          "parentUid" : "3fbd5224586903e4883835aa0a7cce6d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626348271331,
+            "stop" : 1626348271568,
+            "duration" : 237
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3fbd5224586903e4883835aa0a7cce6d"
+      }, {
+        "name" : "com.screener.qa.testcases.ScreensPageTest",
+        "children" : [ {
+          "name" : "Verifying title of screens page.",
+          "uid" : "e5e342db09513b32",
+          "parentUid" : "881d63e001c29b2efafd6fc2af917ab5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626348280607,
+            "stop" : 1626348280657,
+            "duration" : 50
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Verifying username label on screens page.",
+          "uid" : "e2f93a3a540cf9e7",
+          "parentUid" : "881d63e001c29b2efafd6fc2af917ab5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626348289676,
+            "stop" : 1626348289782,
+            "duration" : 106
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Verifying create screen link text on screens page.",
+          "uid" : "3015b4350c6d3c04",
+          "parentUid" : "881d63e001c29b2efafd6fc2af917ab5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626348299452,
+            "stop" : 1626348299538,
+            "duration" : 86
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "click on create screen link on screens page.",
+          "uid" : "66316d3d70923c6c",
+          "parentUid" : "881d63e001c29b2efafd6fc2af917ab5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626348308312,
+            "stop" : 1626348308842,
+            "duration" : 530
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "881d63e001c29b2efafd6fc2af917ab5"
+      }, {
+        "name" : "com.screener.qa.testcases.SignupPageTest",
+        "children" : [ {
+          "name" : "Verifying title of signup page.",
+          "uid" : "870de0af0116854d",
+          "parentUid" : "bc1ff7f2424dc7ee93083d6e6e0374ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626348316570,
+            "stop" : 1626348316599,
+            "duration" : 29
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filling create account form on signup page.",
+          "uid" : "c7dbc6edab3ffda3",
+          "parentUid" : "bc1ff7f2424dc7ee93083d6e6e0374ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626348324459,
+            "stop" : 1626348324940,
+            "duration" : 481
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifying create account button text on signup page.",
+          "uid" : "8b7744f4bc917bf5",
+          "parentUid" : "bc1ff7f2424dc7ee93083d6e6e0374ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626348332456,
+            "stop" : 1626348332564,
+            "duration" : 108
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifying search company input field is enabled on signup page.",
+          "uid" : "fe33c742c63a3b70",
+          "parentUid" : "bc1ff7f2424dc7ee93083d6e6e0374ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626348340803,
+            "stop" : 1626348340875,
+            "duration" : 72
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bc1ff7f2424dc7ee93083d6e6e0374ab"
+      } ],
+      "uid" : "60fc6be32c4c9612e0e777ac7fcd45ae"
+    } ],
+    "uid" : "ed852d355059c3fafcff4fe6aee0b53e"
+  } ]
+}

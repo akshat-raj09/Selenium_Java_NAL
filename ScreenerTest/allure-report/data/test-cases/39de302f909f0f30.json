@@ -1,0 +1,165 @@
+{
+  "uid" : "39de302f909f0f30",
+  "name" : "Verifying username label on home page.",
+  "fullName" : "com.screener.qa.testcases.HomePageTest.validateUserNameLabelTest",
+  "historyId" : "97d911a7f8674bb43ddf2176290ffa96",
+  "time" : {
+    "start" : 1626348262578,
+    "stop" : 1626348262655,
+    "duration" : 77
+  },
+  "description" : "verifying username label test",
+  "descriptionHtml" : "<p>verifying username label test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1626348257279,
+      "stop" : 1626348262568,
+      "duration" : 5289
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login into account using username: akshat@inboxkitten.com & password: test@123 step....",
+      "time" : {
+        "start" : 1626348261356,
+        "stop" : 1626348262568,
+        "duration" : 1212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "un",
+        "value" : "akshat@inboxkitten.com"
+      }, {
+        "name" : "pwd",
+        "value" : "test@123"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  }, {
+    "name" : "setAllureEnvironment",
+    "time" : {
+      "start" : 1626348220238,
+      "stop" : 1626348220519,
+      "duration" : 281
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "verifying username label test",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get username label step....",
+      "time" : {
+        "start" : 1626348262580,
+        "stop" : 1626348262655,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1626348262655,
+      "stop" : 1626348265898,
+      "duration" : 3243
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.screener.qa.testcases.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.screener.qa.testcases.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateUserNameLabelTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Screener.in Test Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Screener.in different pages Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.screener.qa.testcases.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03NIIQU"
+  }, {
+    "name" : "thread",
+    "value" : "8900@DESKTOP-03NIIQU.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name: To validate username label on home page"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39de302f909f0f30.json",
+  "parameterValues" : [ ]
+}

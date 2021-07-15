@@ -1,0 +1,207 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.screener.qa.testcases",
+    "children" : [ {
+      "name" : "LoginPageTest",
+      "children" : [ {
+        "name" : "loginPageTitleTest",
+        "uid" : "c24fcb8b36104c43",
+        "parentUid" : "3c34aab0f4d46f1a0c4367a29ec2e798",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626348228573,
+          "stop" : 1626348229102,
+          "duration" : 529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "screenerImageLogoTest",
+        "uid" : "6dec943fa4b57d22",
+        "parentUid" : "3c34aab0f4d46f1a0c4367a29ec2e798",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626348236023,
+          "stop" : 1626348236188,
+          "duration" : 165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "f08763f4c6419f7c",
+        "parentUid" : "3c34aab0f4d46f1a0c4367a29ec2e798",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626348243913,
+          "stop" : 1626348245158,
+          "duration" : 1245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3c34aab0f4d46f1a0c4367a29ec2e798"
+    }, {
+      "name" : "HomePageTest",
+      "children" : [ {
+        "name" : "validateHomePageTitleTest",
+        "uid" : "e9bcbf7d88619a20",
+        "parentUid" : "788c79d30b78c27eebb47f6b7d874716",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626348253511,
+          "stop" : 1626348253779,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateUserNameLabelTest",
+        "uid" : "39de302f909f0f30",
+        "parentUid" : "788c79d30b78c27eebb47f6b7d874716",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626348262578,
+          "stop" : 1626348262655,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickOnScreensLinkTest",
+        "uid" : "4ebc7dea99f8fab7",
+        "parentUid" : "788c79d30b78c27eebb47f6b7d874716",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626348271331,
+          "stop" : 1626348271568,
+          "duration" : 237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "788c79d30b78c27eebb47f6b7d874716"
+    }, {
+      "name" : "ScreensPageTest",
+      "children" : [ {
+        "name" : "validateScreensPageTitleTest",
+        "uid" : "e5e342db09513b32",
+        "parentUid" : "aa3015eddd77155c8047cc969b73de18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626348280607,
+          "stop" : 1626348280657,
+          "duration" : 50
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateUserNameLabelTest",
+        "uid" : "e2f93a3a540cf9e7",
+        "parentUid" : "aa3015eddd77155c8047cc969b73de18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626348289676,
+          "stop" : 1626348289782,
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validatecreateScreenLinkTextTest",
+        "uid" : "3015b4350c6d3c04",
+        "parentUid" : "aa3015eddd77155c8047cc969b73de18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626348299452,
+          "stop" : 1626348299538,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickOnCreateScreenLinkTest",
+        "uid" : "66316d3d70923c6c",
+        "parentUid" : "aa3015eddd77155c8047cc969b73de18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626348308312,
+          "stop" : 1626348308842,
+          "duration" : 530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa3015eddd77155c8047cc969b73de18"
+    }, {
+      "name" : "SignupPageTest",
+      "children" : [ {
+        "name" : "signupPageTitleTest",
+        "uid" : "870de0af0116854d",
+        "parentUid" : "43795eea510eabeba9cf171bf3d23ecc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626348316570,
+          "stop" : 1626348316599,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "fillCreateAccountFormTest",
+        "uid" : "c7dbc6edab3ffda3",
+        "parentUid" : "43795eea510eabeba9cf171bf3d23ecc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626348324459,
+          "stop" : 1626348324940,
+          "duration" : 481
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCreateAccountBtnTextTest",
+        "uid" : "8b7744f4bc917bf5",
+        "parentUid" : "43795eea510eabeba9cf171bf3d23ecc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626348332456,
+          "stop" : 1626348332564,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchCompanyFieldEnabledTest",
+        "uid" : "fe33c742c63a3b70",
+        "parentUid" : "43795eea510eabeba9cf171bf3d23ecc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626348340803,
+          "stop" : 1626348340875,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43795eea510eabeba9cf171bf3d23ecc"
+    } ],
+    "uid" : "com.screener.qa.testcases"
+  } ]
+}

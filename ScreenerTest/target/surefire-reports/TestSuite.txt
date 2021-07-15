@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 130.765 s <<< FAILURE! - in TestSuite
+com.screener.qa.testcases.LoginPageTest.loginPageTitleTest[public void com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(java.lang.reflect.Method)](1)  Time elapsed: 0.047 s  <<< FAILURE!
+java.lang.AssertionError: Title does not match expected [Login - Screener1234] but found [Login - Screener]
+	at com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:77)
+
+com.screener.qa.testcases.HomePageTest.validateHomePageTitleTest[public void com.screener.qa.testcases.HomePageTest.validateHomePageTitleTest(java.lang.reflect.Method)](1)  Time elapsed: 0.303 s  <<< FAILURE!
+java.lang.AssertionError: Home Page title does not match expected [Dashboard - Screener1234] but found [Dashboard - Screener]
+	at com.screener.qa.testcases.HomePageTest.validateHomePageTitleTest(HomePageTest.java:60)
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Screener.in Test Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.screener.qa.Report.ExtentReport.TestNgExtentListener"/>
+    <listener class-name="com.screener.qa.Report.AllureReport.TestNgAllureListener"/>
+  </listeners>
+  <test thread-count="5" name="Screener.in different pages Test(failed)" verbose="0">
+    <classes>
+      <class name="com.screener.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginPageTitleTest" invocation-numbers="0"/>
+          <include name="setAllureEnvironment"/>
+        </methods>
+      </class> <!-- com.screener.qa.testcases.LoginPageTest -->
+      <class name="com.screener.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateHomePageTitleTest" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.screener.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Screener.in different pages Test(failed) -->
+</suite> <!-- Failed suite [Screener.in Test Automation Suite] -->

@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Screener.in Test Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Screener_in_Test_Automation_Suite" class="navigator-link ">
+                    <span>D:\Data\Study Material\Java\ScreenerTest\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Screener_in_Test_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Screener_in_Test_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Screener_in_Test_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Screener_in_Test_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Screener_in_Test_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Screener_in_Test_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 2 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" class="hide-methods failed suite-Screener_in_Test_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-Screener_in_Test_Automation_Suite -->
+                      <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" class="show-methods failed suite-Screener_in_Test_Automation_Suite"> (show)</a> <!-- show-methods failed suite-Screener_in_Test_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Screener_in_Test_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest(public void com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(java.lang.reflect.Method))">loginPageTitleTest(public void com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="validateHomePageTitleTest(public void com.screener.qa.testcases.HomePageTest.validateHomePageTitleTest(java.lang.reflect.Metho...)">validateHomePageTitleTest(public void com.screener.qa.testcases.HomePageTest.validateHomePageTitleTest(java.lang.reflect.Metho...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Screener_in_Test_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" class="hide-methods passed suite-Screener_in_Test_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Screener_in_Test_Automation_Suite -->
+                      <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" class="show-methods passed suite-Screener_in_Test_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Screener_in_Test_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Screener_in_Test_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.ScreensPageTest" class="method navigator-link" hash-for-method="clickOnCreateScreenLinkTest(public void com.screener.qa.testcases.ScreensPageTest.clickOnCreateScreenLinkTest(java.lang.reflect....)">clickOnCreateScreenLinkTest(public void com.screener.qa.testcases.ScreensPageTest.clickOnCreateScreenLinkTest(java.lang.reflect....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="clickOnScreensLinkTest(public void com.screener.qa.testcases.HomePageTest.clickOnScreensLinkTest(java.lang.reflect.Method))">clickOnScreensLinkTest(public void com.screener.qa.testcases.HomePageTest.clickOnScreensLinkTest(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.SignupPageTest" class="method navigator-link" hash-for-method="fillCreateAccountFormTest(public void com.screener.qa.testcases.SignupPageTest.fillCreateAccountFormTest(java.lang.reflect.Met...)">fillCreateAccountFormTest(public void com.screener.qa.testcases.SignupPageTest.fillCreateAccountFormTest(java.lang.reflect.Met...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(public void com.screener.qa.testcases.LoginPageTest.loginTest(java.lang.reflect.Method))">loginTest(public void com.screener.qa.testcases.LoginPageTest.loginTest(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="screenerImageLogoTest(public void com.screener.qa.testcases.LoginPageTest.screenerImageLogoTest(java.lang.reflect.Method))">screenerImageLogoTest(public void com.screener.qa.testcases.LoginPageTest.screenerImageLogoTest(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.SignupPageTest" class="method navigator-link" hash-for-method="searchCompanyFieldEnabledTest(public void com.screener.qa.testcases.SignupPageTest.searchCompanyFieldEnabledTest(java.lang.reflect...)">searchCompanyFieldEnabledTest(public void com.screener.qa.testcases.SignupPageTest.searchCompanyFieldEnabledTest(java.lang.reflect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.SignupPageTest" class="method navigator-link" hash-for-method="signupPageTitleTest(public void com.screener.qa.testcases.SignupPageTest.signupPageTitleTest(java.lang.reflect.Method))">signupPageTitleTest(public void com.screener.qa.testcases.SignupPageTest.signupPageTitleTest(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.SignupPageTest" class="method navigator-link" hash-for-method="validateCreateAccountBtnTextTest(public void com.screener.qa.testcases.SignupPageTest.validateCreateAccountBtnTextTest(java.lang.refl...)">validateCreateAccountBtnTextTest(public void com.screener.qa.testcases.SignupPageTest.validateCreateAccountBtnTextTest(java.lang.refl...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.ScreensPageTest" class="method navigator-link" hash-for-method="validateScreensPageTitleTest(public void com.screener.qa.testcases.ScreensPageTest.validateScreensPageTitleTest(java.lang.reflect...)">validateScreensPageTitleTest(public void com.screener.qa.testcases.ScreensPageTest.validateScreensPageTitleTest(java.lang.reflect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.ScreensPageTest" class="method navigator-link" hash-for-method="validateUserNameLabelTest(public void com.screener.qa.testcases.ScreensPageTest.validateUserNameLabelTest(java.lang.reflect.Me...)">validateUserNameLabelTest(public void com.screener.qa.testcases.ScreensPageTest.validateUserNameLabelTest(java.lang.reflect.Me...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="validateUserNameLabelTest(public void com.screener.qa.testcases.HomePageTest.validateUserNameLabelTest(java.lang.reflect.Metho...)">validateUserNameLabelTest(public void com.screener.qa.testcases.HomePageTest.validateUserNameLabelTest(java.lang.reflect.Metho...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Screener_in_Test_Automation_Suite" title="com.screener.qa.testcases.ScreensPageTest" class="method navigator-link" hash-for-method="validatecreateScreenLinkTextTest(public void com.screener.qa.testcases.ScreensPageTest.validatecreateScreenLinkTextTest(java.lang.ref...)">validatecreateScreenLinkTextTest(public void com.screener.qa.testcases.ScreensPageTest.validatecreateScreenLinkTextTest(java.lang.ref...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Screener_in_Test_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Screener_in_Test_Automation_Suite" class="panel Screener_in_Test_Automation_Suite">
+          <div class="suite-Screener_in_Test_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.screener.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest(public void com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(java.lang.reflect.Method))">
+                  </a> <!-- loginPageTitleTest(public void com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(java.lang.reflect.Method)) -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(java.lang.reflect.Method))</span>
+                  <div class="stack-trace">java.lang.AssertionError: Title does not match expected [Login - Screener1234] but found [Login - Screener]
+	at com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verifying login page title.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Screener_in_Test_Automation_Suite-class-failed -->
+          <div class="suite-Screener_in_Test_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.screener.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHomePageTitleTest(public void com.screener.qa.testcases.HomePageTest.validateHomePageTitleTest(java.lang.reflect.Metho...)">
+                  </a> <!-- validateHomePageTitleTest(public void com.screener.qa.testcases.HomePageTest.validateHomePageTitleTest(java.lang.reflect.Metho...) -->
+                  <span class="method-name">validateHomePageTitleTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.HomePageTest.validateHomePageTitleTest(java.lang.reflect.Method))</span>
+                  <div class="stack-trace">java.lang.AssertionError: Home Page title does not match expected [Dashboard - Screener1234] but found [Dashboard - Screener]
+	at com.screener.qa.testcases.HomePageTest.validateHomePageTitleTest(HomePageTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verifying Home page title.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Screener_in_Test_Automation_Suite-class-failed -->
+          <div class="suite-Screener_in_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.screener.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(public void com.screener.qa.testcases.LoginPageTest.loginTest(java.lang.reflect.Method))">
+                  </a> <!-- loginTest(public void com.screener.qa.testcases.LoginPageTest.loginTest(java.lang.reflect.Method)) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.LoginPageTest.loginTest(java.lang.reflect.Method))</span>
+                  <em>
+(Logging in by filling correct username & password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenerImageLogoTest(public void com.screener.qa.testcases.LoginPageTest.screenerImageLogoTest(java.lang.reflect.Method))">
+                  </a> <!-- screenerImageLogoTest(public void com.screener.qa.testcases.LoginPageTest.screenerImageLogoTest(java.lang.reflect.Method)) -->
+                  <span class="method-name">screenerImageLogoTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.LoginPageTest.screenerImageLogoTest(java.lang.reflect.Method))</span>
+                  <em>
+(Verifying screener logo on Login page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Screener_in_Test_Automation_Suite-class-passed -->
+          <div class="suite-Screener_in_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.screener.qa.testcases.ScreensPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnCreateScreenLinkTest(public void com.screener.qa.testcases.ScreensPageTest.clickOnCreateScreenLinkTest(java.lang.reflect....)">
+                  </a> <!-- clickOnCreateScreenLinkTest(public void com.screener.qa.testcases.ScreensPageTest.clickOnCreateScreenLinkTest(java.lang.reflect....) -->
+                  <span class="method-name">clickOnCreateScreenLinkTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.ScreensPageTest.clickOnCreateScreenLinkTest(java.lang.reflect.Method))</span>
+                  <em>
+(click on create screen link on screens page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateScreensPageTitleTest(public void com.screener.qa.testcases.ScreensPageTest.validateScreensPageTitleTest(java.lang.reflect...)">
+                  </a> <!-- validateScreensPageTitleTest(public void com.screener.qa.testcases.ScreensPageTest.validateScreensPageTitleTest(java.lang.reflect...) -->
+                  <span class="method-name">validateScreensPageTitleTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.ScreensPageTest.validateScreensPageTitleTest(java.lang.reflect.Method))</span>
+                  <em>
+(Verifying title of screens page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserNameLabelTest(public void com.screener.qa.testcases.ScreensPageTest.validateUserNameLabelTest(java.lang.reflect.Me...)">
+                  </a> <!-- validateUserNameLabelTest(public void com.screener.qa.testcases.ScreensPageTest.validateUserNameLabelTest(java.lang.reflect.Me...) -->
+                  <span class="method-name">validateUserNameLabelTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.ScreensPageTest.validateUserNameLabelTest(java.lang.reflect.Method))</span>
+                  <em>
+(Verifying username label on screens page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatecreateScreenLinkTextTest(public void com.screener.qa.testcases.ScreensPageTest.validatecreateScreenLinkTextTest(java.lang.ref...)">
+                  </a> <!-- validatecreateScreenLinkTextTest(public void com.screener.qa.testcases.ScreensPageTest.validatecreateScreenLinkTextTest(java.lang.ref...) -->
+                  <span class="method-name">validatecreateScreenLinkTextTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.ScreensPageTest.validatecreateScreenLinkTextTest(java.lang.reflect.Method))</span>
+                  <em>
+(Verifying create screen link text on screens page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Screener_in_Test_Automation_Suite-class-passed -->
+          <div class="suite-Screener_in_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.screener.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnScreensLinkTest(public void com.screener.qa.testcases.HomePageTest.clickOnScreensLinkTest(java.lang.reflect.Method))">
+                  </a> <!-- clickOnScreensLinkTest(public void com.screener.qa.testcases.HomePageTest.clickOnScreensLinkTest(java.lang.reflect.Method)) -->
+                  <span class="method-name">clickOnScreensLinkTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.HomePageTest.clickOnScreensLinkTest(java.lang.reflect.Method))</span>
+                  <em>
+(Verifying click on screens link on home page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserNameLabelTest(public void com.screener.qa.testcases.HomePageTest.validateUserNameLabelTest(java.lang.reflect.Metho...)">
+                  </a> <!-- validateUserNameLabelTest(public void com.screener.qa.testcases.HomePageTest.validateUserNameLabelTest(java.lang.reflect.Metho...) -->
+                  <span class="method-name">validateUserNameLabelTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.HomePageTest.validateUserNameLabelTest(java.lang.reflect.Method))</span>
+                  <em>
+(Verifying username label on home page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Screener_in_Test_Automation_Suite-class-passed -->
+          <div class="suite-Screener_in_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.screener.qa.testcases.SignupPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillCreateAccountFormTest(public void com.screener.qa.testcases.SignupPageTest.fillCreateAccountFormTest(java.lang.reflect.Met...)">
+                  </a> <!-- fillCreateAccountFormTest(public void com.screener.qa.testcases.SignupPageTest.fillCreateAccountFormTest(java.lang.reflect.Met...) -->
+                  <span class="method-name">fillCreateAccountFormTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.SignupPageTest.fillCreateAccountFormTest(java.lang.reflect.Method))</span>
+                  <em>
+(filling create account form on signup page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCompanyFieldEnabledTest(public void com.screener.qa.testcases.SignupPageTest.searchCompanyFieldEnabledTest(java.lang.reflect...)">
+                  </a> <!-- searchCompanyFieldEnabledTest(public void com.screener.qa.testcases.SignupPageTest.searchCompanyFieldEnabledTest(java.lang.reflect...) -->
+                  <span class="method-name">searchCompanyFieldEnabledTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.SignupPageTest.searchCompanyFieldEnabledTest(java.lang.reflect.Method))</span>
+                  <em>
+(verifying search company input field is enabled on signup page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signupPageTitleTest(public void com.screener.qa.testcases.SignupPageTest.signupPageTitleTest(java.lang.reflect.Method))">
+                  </a> <!-- signupPageTitleTest(public void com.screener.qa.testcases.SignupPageTest.signupPageTitleTest(java.lang.reflect.Method)) -->
+                  <span class="method-name">signupPageTitleTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.SignupPageTest.signupPageTitleTest(java.lang.reflect.Method))</span>
+                  <em>
+(Verifying title of signup page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCreateAccountBtnTextTest(public void com.screener.qa.testcases.SignupPageTest.validateCreateAccountBtnTextTest(java.lang.refl...)">
+                  </a> <!-- validateCreateAccountBtnTextTest(public void com.screener.qa.testcases.SignupPageTest.validateCreateAccountBtnTextTest(java.lang.refl...) -->
+                  <span class="method-name">validateCreateAccountBtnTextTest</span>
+                  <span class="parameters">(public void com.screener.qa.testcases.SignupPageTest.validateCreateAccountBtnTextTest(java.lang.reflect.Method))</span>
+                  <em>
+(verifying create account button text on signup page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Screener_in_Test_Automation_Suite-class-passed -->
+        </div> <!-- panel Screener_in_Test_Automation_Suite -->
+        <div panel-name="test-xml-Screener_in_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Data\Study Material\Java\ScreenerTest\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Screener.in Test Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.screener.qa.Report.ExtentReport.TestNgExtentListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.screener.qa.Report.AllureReport.TestNgAllureListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Screener.in different pages Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.screener.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.screener.qa.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.screener.qa.testcases.ScreensPageTest&quot;/&gt;
+      &lt;class name=&quot;com.screener.qa.testcases.SignupPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Screener.in different pages Test --&gt;
+&lt;/suite&gt; &lt;!-- Screener.in Test Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Screener_in_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Screener.in Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Screener.in different pages Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Screener_in_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Screener.in Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Screener_in_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Screener.in Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Screener_in_Test_Automation_Suite');
+function tableData_Screener_in_Test_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.screener.qa.testcases.LoginPageTest')
+data.setCell(0, 3, 1250);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickOnCreateScreenLinkTest')
+data.setCell(1, 2, 'com.screener.qa.testcases.ScreensPageTest')
+data.setCell(1, 3, 537);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fillCreateAccountFormTest')
+data.setCell(2, 2, 'com.screener.qa.testcases.SignupPageTest')
+data.setCell(2, 3, 485);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickOnScreensLinkTest')
+data.setCell(3, 2, 'com.screener.qa.testcases.HomePageTest')
+data.setCell(3, 3, 240);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginPageTitleTest')
+data.setCell(4, 2, 'com.screener.qa.testcases.LoginPageTest')
+data.setCell(4, 3, 234);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'screenerImageLogoTest')
+data.setCell(5, 2, 'com.screener.qa.testcases.LoginPageTest')
+data.setCell(5, 3, 170);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateUserNameLabelTest')
+data.setCell(6, 2, 'com.screener.qa.testcases.ScreensPageTest')
+data.setCell(6, 3, 112);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateCreateAccountBtnTextTest')
+data.setCell(7, 2, 'com.screener.qa.testcases.SignupPageTest')
+data.setCell(7, 3, 111);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validatecreateScreenLinkTextTest')
+data.setCell(8, 2, 'com.screener.qa.testcases.ScreensPageTest')
+data.setCell(8, 3, 96);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateUserNameLabelTest')
+data.setCell(9, 2, 'com.screener.qa.testcases.HomePageTest')
+data.setCell(9, 3, 85);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'searchCompanyFieldEnabledTest')
+data.setCell(10, 2, 'com.screener.qa.testcases.SignupPageTest')
+data.setCell(10, 3, 81);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateScreensPageTitleTest')
+data.setCell(11, 2, 'com.screener.qa.testcases.ScreensPageTest')
+data.setCell(11, 3, 63);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'signupPageTitleTest')
+data.setCell(12, 2, 'com.screener.qa.testcases.SignupPageTest')
+data.setCell(12, 3, 33);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateHomePageTitleTest')
+data.setCell(13, 2, 'com.screener.qa.testcases.HomePageTest')
+data.setCell(13, 3, 30);
+window.suiteTableData['Screener_in_Test_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Screener_in_Test_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-Screener_in_Test_Automation_Suite">
+              </div> <!-- times-div-Screener_in_Test_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Screener_in_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Screener.in Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Screener_in_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Screener_in_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.screener.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setAllureEnvironment</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginPageTitleTest(public void com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(java.lang.reflect.Method))</span>
+                <span class="method-start">8289 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">screenerImageLogoTest(public void com.screener.qa.testcases.LoginPageTest.screenerImageLogoTest(java.lang.reflect.Method))</span>
+                <span class="method-start">15811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15986 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">19220 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(public void com.screener.qa.testcases.LoginPageTest.loginTest(java.lang.reflect.Method))</span>
+                <span class="method-start">23701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24958 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.screener.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">28243 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateHomePageTitleTest(public void com.screener.qa.testcases.HomePageTest.validateHomePageTitleTest(java.lang.reflect.Metho...)</span>
+                <span class="method-start">33299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33843 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">37073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserNameLabelTest(public void com.screener.qa.testcases.HomePageTest.validateUserNameLabelTest(java.lang.reflect.Metho...)</span>
+                <span class="method-start">42364 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42449 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">45692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnScreensLinkTest(public void com.screener.qa.testcases.HomePageTest.clickOnScreensLinkTest(java.lang.reflect.Method))</span>
+                <span class="method-start">51120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51367 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.screener.qa.testcases.ScreensPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">54613 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateScreensPageTitleTest(public void com.screener.qa.testcases.ScreensPageTest.validateScreensPageTitleTest(java.lang.reflect...)</span>
+                <span class="method-start">60388 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60453 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">63705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserNameLabelTest(public void com.screener.qa.testcases.ScreensPageTest.validateUserNameLabelTest(java.lang.reflect.Me...)</span>
+                <span class="method-start">69464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">69576 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">72823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatecreateScreenLinkTextTest(public void com.screener.qa.testcases.ScreensPageTest.validatecreateScreenLinkTextTest(java.lang.ref...)</span>
+                <span class="method-start">79236 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79332 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">82587 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnCreateScreenLinkTest(public void com.screener.qa.testcases.ScreensPageTest.clickOnCreateScreenLinkTest(java.lang.reflect....)</span>
+                <span class="method-start">88099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88639 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.screener.qa.testcases.SignupPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">91725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signupPageTitleTest(public void com.screener.qa.testcases.SignupPageTest.signupPageTitleTest(java.lang.reflect.Method))</span>
+                <span class="method-start">96360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96396 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">99634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillCreateAccountFormTest(public void com.screener.qa.testcases.SignupPageTest.fillCreateAccountFormTest(java.lang.reflect.Met...)</span>
+                <span class="method-start">104247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">104737 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">107978 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCreateAccountBtnTextTest(public void com.screener.qa.testcases.SignupPageTest.validateCreateAccountBtnTextTest(java.lang.refl...)</span>
+                <span class="method-start">112245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">112361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">115602 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCompanyFieldEnabledTest(public void com.screener.qa.testcases.SignupPageTest.searchCompanyFieldEnabledTest(java.lang.reflect...)</span>
+                <span class="method-start">120588 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">120669 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

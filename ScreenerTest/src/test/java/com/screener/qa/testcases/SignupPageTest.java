@@ -7,11 +7,21 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
 import com.screener.qa.base.TestBase;
 import com.screener.qa.pages.SignupPage;
+
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+
+import com.screener.qa.Report.AllureReport.TestNgAllureListener;
+
+@Listeners({TestNgAllureListener.class})
 
 public class SignupPageTest extends TestBase {
 	
@@ -35,7 +45,10 @@ public class SignupPageTest extends TestBase {
 		
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1, description="Verifying title of signup page.")
+	@Description("verifying title of signup page test")
+	@Severity(SeverityLevel.NORMAL)
+	@Story("Story Name: To verify title of signup page")
 	public void signupPageTitleTest(Method method) {
 		
 		log.info("Signup page title test started");
@@ -49,7 +62,10 @@ public class SignupPageTest extends TestBase {
 		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2, description="filling create account form on signup page.")
+	@Description("filling create account form test")
+	@Severity(SeverityLevel.TRIVIAL)
+	@Story("Story Name: filling create account form on signup page")
 	public void fillCreateAccountFormTest(Method method) {
 		
 		log.info("Signup page fill create account form test started");
@@ -63,7 +79,10 @@ public class SignupPageTest extends TestBase {
 	}
 	
 	
-	@Test(priority=3)
+	@Test(priority=3, description="verifying create account button text on signup page.")
+	@Description("validate create account button text test")
+	@Severity(SeverityLevel.TRIVIAL)
+	@Story("Story Name: verifying create account button text on signup page")
 	public void validateCreateAccountBtnTextTest(Method method) {
 		
 		log.info("Signup page create account button text test started");
@@ -76,7 +95,10 @@ public class SignupPageTest extends TestBase {
 		
 	}
 	
-	@Test(priority=4)
+	@Test(priority=4, description="verifying search company input field is enabled on signup page.")
+	@Description("validate search company input field is enabled test")
+	@Severity(SeverityLevel.BLOCKER)
+	@Story("Story Name: verifying search company input field is enabled on signup page")
 	public void searchCompanyFieldEnabledTest(Method method) {
 		
 		log.info("Signup page search company field enabled test started");

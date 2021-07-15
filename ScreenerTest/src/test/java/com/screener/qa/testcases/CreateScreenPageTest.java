@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -18,6 +19,15 @@ import com.screener.qa.pages.HomePage;
 import com.screener.qa.pages.LoginPage;
 import com.screener.qa.pages.ScreensPage;
 import com.screener.qa.util.TestUtil;
+
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+
+import com.screener.qa.Report.AllureReport.TestNgAllureListener;
+
+@Listeners({TestNgAllureListener.class})
 
 public class CreateScreenPageTest extends TestBase {
 	
@@ -45,7 +55,10 @@ public class CreateScreenPageTest extends TestBase {
 		createScreenPage = screensPage.clickOnCreateScreenLink();
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1, description="Verifying title of create screen page.")
+	@Description("verifying title of create screen page test")
+	@Severity(SeverityLevel.NORMAL)
+	@Story("Story Name: To verify title of create screen page")
 	public void validateCreateScreenPageTitleTest(Method method) {
 		
 		log.info("Create screen page title test started");
@@ -58,7 +71,10 @@ public class CreateScreenPageTest extends TestBase {
 		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2, description="Verifying username label on create screen page.")
+	@Description("verifying username label test")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("Story Name: To validate username label on create screen page")
 	public void validateUserNameLabelTest(Method method) {
 		
 		log.info("Create screen page username label test started");
@@ -79,7 +95,10 @@ public class CreateScreenPageTest extends TestBase {
 	
 	}
 	
-	@Test(priority=3, dataProvider="getQueryTestData")
+	@Test(priority=3, dataProvider="getQueryTestData", description="Verifying create new screen functionality.")
+	@Description("verifying create new screen functionality test")
+	@Severity(SeverityLevel.BLOCKER)
+	@Story("Story Name: To validate create new screen functionality on create screen page")
 	public void validateCreateNewScreenTest(String query, Method method) {
 		
 		log.info("Create screen page create new screen test started");

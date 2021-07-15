@@ -11,7 +11,49 @@
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <aspectj.version>1.9.7</aspectj.version>
+    <selenium-version>3.141.59</selenium-version>
+    <testng-version>7.4.0</testng-version>
+    <ashot-version>1.5.4</ashot-version>
+    <allure-testng-version>2.14.0</allure-testng-version>
+    <log4j-version>2.14.1</log4j-version>
+    <extentreports-version>5.0.8</extentreports-version>
+    <maven-surefire-plugin-version>3.0.0-M5</maven-surefire-plugin-version>
   </properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.8</source> <!--For JAVA 8 use 1.8 -->
+					<target>1.8</target> <!--For JAVA 8 use 1.8 -->
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin-version}</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<argLine>
+						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+					</argLine>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>org.aspectj</groupId>
+						<artifactId>aspectjweaver</artifactId>
+						<version>${aspectj.version}</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+		</plugins>
+	</build>
   
   <dependencies>
   
@@ -52,6 +94,170 @@
       <artifactId>extentreports</artifactId>
       <version>5.0.8</version>
     </dependency>
+    
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-testng</artifactId>
+      <version>2.14.0</version>
+    </dependency>
+    
+    <dependency>
+	  <groupId>org.projectlombok</groupId>
+	  <artifactId>lombok</artifactId>
+	  <version>1.18.20</version>
+	  <scope>provided</scope>
+    </dependency>
+    
+    <dependency>
+        <groupId>com.github.automatedowl</groupId>
+        <artifactId>allure-environment-writer</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+
+
+	<!-- APACHE POI DEPENDENCIES BELOW -->
+
+
+	<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi</artifactId>
+		<version>5.0.0</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi-examples</artifactId>
+		<version>5.0.0</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi-excelant</artifactId>
+		<version>5.0.0</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi-ooxml-full</artifactId>
+		<version>5.0.0</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi-ooxml</artifactId>
+		<version>5.0.0</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi-ooxml-lite</artifactId>
+		<version>5.0.0</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi-scratchpad</artifactId>
+		<version>5.0.0</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.xmlgraphics</groupId>
+		<artifactId>batik-all</artifactId>
+		<version>1.13</version>
+		<type>pom</type>
+	</dependency>
+
+	<dependency>
+		<groupId>org.bouncycastle</groupId>
+		<artifactId>bcpkix-jdk15on</artifactId>
+		<version>1.68</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.bouncycastle</groupId>
+		<artifactId>bcprov-jdk15on</artifactId>
+		<version>1.68</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.pdfbox</groupId>
+		<artifactId>fontbox</artifactId>
+		<version>2.0.22</version>
+	</dependency>
+
+	<dependency>
+		<groupId>de.rototor.pdfbox</groupId>
+		<artifactId>graphics2d</artifactId>
+		<version>0.30</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.pdfbox</groupId>
+		<artifactId>pdfbox</artifactId>
+		<version>2.0.22</version>
+	</dependency>
+
+	<dependency>
+		<groupId>xml-apis</groupId>
+		<artifactId>xml-apis-ext</artifactId>
+		<version>1.3.04</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.xmlgraphics</groupId>
+		<artifactId>xmlgraphics-commons</artifactId>
+		<version>2.4</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.santuario</groupId>
+		<artifactId>xmlsec</artifactId>
+		<version>2.2.1</version>
+	</dependency>
+
+	<dependency>
+		<groupId>commons-codec</groupId>
+		<artifactId>commons-codec</artifactId>
+		<version>1.15</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.commons</groupId>
+		<artifactId>commons-collections4</artifactId>
+		<version>4.4</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.commons</groupId>
+		<artifactId>commons-math3</artifactId>
+		<version>3.6.1</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.zaxxer</groupId>
+		<artifactId>SparseBitSet</artifactId>
+		<version>1.2</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.commons</groupId>
+		<artifactId>commons-compress</artifactId>
+		<version>1.20</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.github.virtuald</groupId>
+		<artifactId>curvesapi</artifactId>
+		<version>1.06</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.xmlbeans</groupId>
+		<artifactId>xmlbeans</artifactId>
+		<version>4.0.0</version>
+	</dependency>
+    
+    
     
       
   </dependencies>

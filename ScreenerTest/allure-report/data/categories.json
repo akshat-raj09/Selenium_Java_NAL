@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Title does not match expected [Login - Screener1234] but found [Login - Screener]",
+      "children" : [ {
+        "name" : "Verifying login page title.",
+        "uid" : "c24fcb8b36104c43",
+        "parentUid" : "5b5026183dda0baf51b7abac597bb46f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626348228573,
+          "stop" : 1626348229102,
+          "duration" : 529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b5026183dda0baf51b7abac597bb46f"
+    }, {
+      "name" : "Home Page title does not match expected [Dashboard - Screener1234] but found [Dashboard - Screener]",
+      "children" : [ {
+        "name" : "Verifying Home page title.",
+        "uid" : "e9bcbf7d88619a20",
+        "parentUid" : "9eb9e017800270eeb7873cdc61e021a4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626348253511,
+          "stop" : 1626348253779,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9eb9e017800270eeb7873cdc61e021a4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

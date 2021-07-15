@@ -1,0 +1,144 @@
+{
+  "uid" : "6dec943fa4b57d22",
+  "name" : "Verifying screener logo on Login page.",
+  "fullName" : "com.screener.qa.testcases.LoginPageTest.screenerImageLogoTest",
+  "historyId" : "253473d39822db1b2e7ed11c9193678c",
+  "time" : {
+    "start" : 1626348236023,
+    "stop" : 1626348236188,
+    "duration" : 165
+  },
+  "description" : "verifying screener logo test",
+  "descriptionHtml" : "<p>verifying screener logo test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1626348231839,
+      "stop" : 1626348236014,
+      "duration" : 4175
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setAllureEnvironment",
+    "time" : {
+      "start" : 1626348220238,
+      "stop" : 1626348220519,
+      "duration" : 281
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "verifying screener logo test",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get status of screener logo step....",
+      "time" : {
+        "start" : 1626348236025,
+        "stop" : 1626348236186,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1626348236193,
+      "stop" : 1626348239426,
+      "duration" : 3233
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.screener.qa.testcases.LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.screener.qa.testcases.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "screenerImageLogoTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Screener.in Test Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Screener.in different pages Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.screener.qa.testcases.LoginPageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03NIIQU"
+  }, {
+    "name" : "thread",
+    "value" : "8900@DESKTOP-03NIIQU.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name: To check screener logo on login page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6dec943fa4b57d22.json",
+  "parameterValues" : [ ]
+}

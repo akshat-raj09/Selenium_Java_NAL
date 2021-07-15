@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.screener.qa.base.TestBase;
 
+import io.qameta.allure.Step;
+
 public class CreateScreenPage extends TestBase {
 	
 	// Page Factory or object repository
@@ -31,14 +33,17 @@ public class CreateScreenPage extends TestBase {
 	
 	// Actions
 	
+	@Step("get title of webpage step....")
 	public String validateCreateScreenPageTitle() {
 		return driver.getTitle();
 	}
-		
+	
+	@Step("get username label step....")
 	public String validateUserNameLabel() {
 		return userNameLabel.getText().trim();
 	}
 	
+	@Step("creating new screen step by using query: {0}")
 	public void validateCreateNewScreen(String query) {
 		queryField.sendKeys(query);
 		runQueryBtn.click();

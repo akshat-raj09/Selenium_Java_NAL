@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.screener.qa.base.TestBase;
 
+import io.qameta.allure.Step;
+
 public class LoginPage extends TestBase {
 	
 	// Page Factory or Object Repository
@@ -32,18 +34,21 @@ public class LoginPage extends TestBase {
 	}
 	
 	// Actions
+	@Step("get title of login page step....")
 	public String validateLoginPageTitle() {
 		
 		return driver.getTitle();
 		
 	}
 	
+	@Step("get status of screener logo step....")
 	public boolean validateScreenerLogo() {
 		
 		return screenerLogo.isDisplayed();
 		
 	}
 	
+	@Step("login into account using username: {0} & password: {1} step....")
 	public HomePage login(String un, String pwd) {
 		
 		username.sendKeys(un);

@@ -1,0 +1,243 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Story Name: To check login page title",
+    "children" : [ {
+      "name" : "Verifying login page title.",
+      "uid" : "c24fcb8b36104c43",
+      "parentUid" : "abb17c58c0649a06cf5e1d36724494e3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1626348228573,
+        "stop" : 1626348229102,
+        "duration" : 529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "abb17c58c0649a06cf5e1d36724494e3"
+  }, {
+    "name" : "Story Name: To check screener logo on login page",
+    "children" : [ {
+      "name" : "Verifying screener logo on Login page.",
+      "uid" : "6dec943fa4b57d22",
+      "parentUid" : "d2617767b9c4ec6aade4c19028adf3a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348236023,
+        "stop" : 1626348236188,
+        "duration" : 165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d2617767b9c4ec6aade4c19028adf3a4"
+  }, {
+    "name" : "Story Name: To check account login function",
+    "children" : [ {
+      "name" : "Logging in by filling correct username & password",
+      "uid" : "f08763f4c6419f7c",
+      "parentUid" : "95c3155316d03b51b2c5e3cf5c2f31cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348243913,
+        "stop" : 1626348245158,
+        "duration" : 1245
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "95c3155316d03b51b2c5e3cf5c2f31cf"
+  }, {
+    "name" : "Story Name: To check home page title",
+    "children" : [ {
+      "name" : "Verifying Home page title.",
+      "uid" : "e9bcbf7d88619a20",
+      "parentUid" : "e9170dc704ef43ce8fe0699278f9c16c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1626348253511,
+        "stop" : 1626348253779,
+        "duration" : 268
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e9170dc704ef43ce8fe0699278f9c16c"
+  }, {
+    "name" : "Story Name: To validate username label on home page",
+    "children" : [ {
+      "name" : "Verifying username label on home page.",
+      "uid" : "39de302f909f0f30",
+      "parentUid" : "a04da7a32c17c5cca44bca1ee3789960",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348262578,
+        "stop" : 1626348262655,
+        "duration" : 77
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a04da7a32c17c5cca44bca1ee3789960"
+  }, {
+    "name" : "Story Name: To click on screens link on home page",
+    "children" : [ {
+      "name" : "Verifying click on screens link on home page.",
+      "uid" : "4ebc7dea99f8fab7",
+      "parentUid" : "e5d9a521abc7fdff36fdbf707182a476",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348271331,
+        "stop" : 1626348271568,
+        "duration" : 237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e5d9a521abc7fdff36fdbf707182a476"
+  }, {
+    "name" : "Story Name: To verify title of screens page",
+    "children" : [ {
+      "name" : "Verifying title of screens page.",
+      "uid" : "e5e342db09513b32",
+      "parentUid" : "a50765f734424fc6a921923e21ed1522",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348280607,
+        "stop" : 1626348280657,
+        "duration" : 50
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a50765f734424fc6a921923e21ed1522"
+  }, {
+    "name" : "Story Name: To validate username label on screens page",
+    "children" : [ {
+      "name" : "Verifying username label on screens page.",
+      "uid" : "e2f93a3a540cf9e7",
+      "parentUid" : "0ac2eb59ed073d5a0ce95e61bc50ebe9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348289676,
+        "stop" : 1626348289782,
+        "duration" : 106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0ac2eb59ed073d5a0ce95e61bc50ebe9"
+  }, {
+    "name" : "Story Name: To validate create screen link text on screens page",
+    "children" : [ {
+      "name" : "Verifying create screen link text on screens page.",
+      "uid" : "3015b4350c6d3c04",
+      "parentUid" : "0b97ac2bf7f1c9aa4c868510206a7c29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348299452,
+        "stop" : 1626348299538,
+        "duration" : 86
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0b97ac2bf7f1c9aa4c868510206a7c29"
+  }, {
+    "name" : "Story Name: To click on create screen link on screens page",
+    "children" : [ {
+      "name" : "click on create screen link on screens page.",
+      "uid" : "66316d3d70923c6c",
+      "parentUid" : "c9ed97ac514cfc539ea3ec1068854236",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348308312,
+        "stop" : 1626348308842,
+        "duration" : 530
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c9ed97ac514cfc539ea3ec1068854236"
+  }, {
+    "name" : "Story Name: To verify title of signup page",
+    "children" : [ {
+      "name" : "Verifying title of signup page.",
+      "uid" : "870de0af0116854d",
+      "parentUid" : "2d8bc930289195259fe3f244ea728377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348316570,
+        "stop" : 1626348316599,
+        "duration" : 29
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2d8bc930289195259fe3f244ea728377"
+  }, {
+    "name" : "Story Name: filling create account form on signup page",
+    "children" : [ {
+      "name" : "filling create account form on signup page.",
+      "uid" : "c7dbc6edab3ffda3",
+      "parentUid" : "aef8ef2ed16ebfa3b10fb76aeb5dfb68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348324459,
+        "stop" : 1626348324940,
+        "duration" : 481
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "aef8ef2ed16ebfa3b10fb76aeb5dfb68"
+  }, {
+    "name" : "Story Name: verifying create account button text on signup page",
+    "children" : [ {
+      "name" : "verifying create account button text on signup page.",
+      "uid" : "8b7744f4bc917bf5",
+      "parentUid" : "881d58da14bb2131deaad4584d135d2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348332456,
+        "stop" : 1626348332564,
+        "duration" : 108
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "881d58da14bb2131deaad4584d135d2a"
+  }, {
+    "name" : "Story Name: verifying search company input field is enabled on signup page",
+    "children" : [ {
+      "name" : "verifying search company input field is enabled on signup page.",
+      "uid" : "fe33c742c63a3b70",
+      "parentUid" : "76b600b7e567f00c7f69a295b758adea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626348340803,
+        "stop" : 1626348340875,
+        "duration" : 72
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "76b600b7e567f00c7f69a295b758adea"
+  } ]
+}

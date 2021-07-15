@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "ed852d355059c3fafcff4fe6aee0b53e",
+    "name" : "Screener.in Test Automation Suite",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 14
+    }
+  } ]
+}

@@ -1,0 +1,144 @@
+{
+  "uid" : "fe33c742c63a3b70",
+  "name" : "verifying search company input field is enabled on signup page.",
+  "fullName" : "com.screener.qa.testcases.SignupPageTest.searchCompanyFieldEnabledTest",
+  "historyId" : "c0a323474f192127a8fa81fea5487244",
+  "time" : {
+    "start" : 1626348340803,
+    "stop" : 1626348340875,
+    "duration" : 72
+  },
+  "description" : "validate search company input field is enabled test",
+  "descriptionHtml" : "<p>validate search company input field is enabled test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1626348335808,
+      "stop" : 1626348340792,
+      "duration" : 4984
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setAllureEnvironment",
+    "time" : {
+      "start" : 1626348220238,
+      "stop" : 1626348220519,
+      "duration" : 281
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "validate search company input field is enabled test",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get status of search company input field step....",
+      "time" : {
+        "start" : 1626348340806,
+        "stop" : 1626348340875,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1626348340875,
+      "stop" : 1626348344106,
+      "duration" : 3231
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.screener.qa.testcases.SignupPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.screener.qa.testcases.SignupPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchCompanyFieldEnabledTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Screener.in Test Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Screener.in different pages Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.screener.qa.testcases.SignupPageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03NIIQU"
+  }, {
+    "name" : "thread",
+    "value" : "8900@DESKTOP-03NIIQU.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name: verifying search company input field is enabled on signup page"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe33c742c63a3b70.json",
+  "parameterValues" : [ ]
+}

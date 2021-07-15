@@ -7,6 +7,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -15,6 +16,15 @@ import com.screener.qa.pages.CreateScreenPage;
 import com.screener.qa.pages.HomePage;
 import com.screener.qa.pages.LoginPage;
 import com.screener.qa.pages.ScreensPage;
+
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+
+import com.screener.qa.Report.AllureReport.TestNgAllureListener;
+
+@Listeners({TestNgAllureListener.class})
 
 public class ScreensPageTest extends TestBase {
 	
@@ -40,7 +50,10 @@ public class ScreensPageTest extends TestBase {
 		screensPage = homePage.clickOnScreensLink();
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1, description="Verifying title of screens page.")
+	@Description("verifying title of screens page test")
+	@Severity(SeverityLevel.NORMAL)
+	@Story("Story Name: To verify title of screens page")
 	public void validateScreensPageTitleTest(Method method) {
 		
 		log.info("Screens page title test started");
@@ -53,7 +66,10 @@ public class ScreensPageTest extends TestBase {
 		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2, description="Verifying username label on screens page.")
+	@Description("verifying username label test")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("Story Name: To validate username label on screens page")
 	public void validateUserNameLabelTest(Method method) {
 		
 		log.info("Screens page username label test started");
@@ -66,7 +82,10 @@ public class ScreensPageTest extends TestBase {
 		
 	}
 	
-	@Test(priority=3)
+	@Test(priority=3, description="Verifying create screen link text on screens page.")
+	@Description("verifying create screen link text test")
+	@Severity(SeverityLevel.MINOR)
+	@Story("Story Name: To validate create screen link text on screens page")
 	public void validatecreateScreenLinkTextTest(Method method) {
 		
 		log.info("Screens page create screen link text test started");
@@ -79,7 +98,10 @@ public class ScreensPageTest extends TestBase {
 		
 	}
 	
-	@Test(priority=4)
+	@Test(priority=4, description="click on create screen link on screens page.")
+	@Description("click on create screen link test")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("Story Name: To click on create screen link on screens page")
 	public void clickOnCreateScreenLinkTest(Method method) {
 		
 		log.info("click on create screen link test started");

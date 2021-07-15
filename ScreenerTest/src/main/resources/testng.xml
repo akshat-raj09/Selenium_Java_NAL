@@ -11,6 +11,7 @@
 
 	<listeners>
 		<listener class-name="com.screener.qa.Report.ExtentReport.TestNgExtentListener" />
+		<listener class-name="com.screener.qa.Report.AllureReport.TestNgAllureListener" />
 	</listeners>
 
 	<test name="Screener.in different pages Test">

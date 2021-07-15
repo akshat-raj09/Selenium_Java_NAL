@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.screener.qa.base.TestBase;
 
+import io.qameta.allure.Step;
+
 public class HomePage extends TestBase {
 	
 	// Page Factory or object repository
@@ -27,14 +29,17 @@ public class HomePage extends TestBase {
 	
 	// Actions
 	
+	@Step("get title of webpage step....")
 	public String validateHomePageTitle() {
 		return driver.getTitle();
 	}
 	
+	@Step("get username label step....")
 	public String validateUserNameLabel() {
 		return userNameLabel.getText().trim();
 	}
 	
+	@Step("click on screens link step....")
 	public ScreensPage clickOnScreensLink() {
 		screensLink.click();
 		return new ScreensPage();
