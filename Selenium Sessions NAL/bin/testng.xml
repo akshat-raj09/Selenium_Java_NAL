@@ -6,6 +6,10 @@
 
 <suite name="TestNG Basics Test Automation Suite" guice-stage="DEVELOPMENT">
 
+<listeners>
+        <listener class-name="com.testNG.AnnotationTransformer"/>
+  </listeners>
+
 	<test name="Different TestNG Feature Test">
 
 		<classes>

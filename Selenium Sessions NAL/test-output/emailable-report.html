@@ -8,22 +8,24 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">127,799</td><td></td><td></td></tr>
+<tr><th colspan="8">TestNG Basics Test Automation Suite</th></tr>
+<tr><td><a href="#t0">Different TestNG Feature Test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">52,957</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.testNG.DataProviderExample</td><td><a href="#m0">fillQueryTextArea</a></td><td rowspan="4">1626005034258</td><td rowspan="4">4003</td></tr><tr class="passedeven"><td><a href="#m1">fillQueryTextArea</a></td></tr><tr class="passedeven"><td><a href="#m2">fillQueryTextArea</a></td></tr><tr class="passedeven"><td><a href="#m3">fillQueryTextArea</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNG Basics Test Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Different TestNG Feature Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.testNG.AssertionOfTestCase</td><td><a href="#m0">googleTitleTest</a></td><td rowspan="1">1626454735776</td><td rowspan="1">10</td></tr><tr><th colspan="4">Different TestNG Feature Test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">com.testNG.AssertionOfTestCase</td><td><a href="#m1">googleTitleTest</a></td><td rowspan="2">1626454727025</td><td rowspan="2">17</td></tr><tr class="retriedeven"><td><a href="#m2">googleTitleTest</a></td></tr><tr><th colspan="4">Different TestNG Feature Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.testNG.AssertionOfTestCase</td><td><a href="#m3">googleLogoTest</a></td><td rowspan="1">1626454744420</td><td rowspan="1">521</td></tr><tr class="passedeven"><td><a href="#m4">searchTest</a></td><td rowspan="1">1626454753167</td><td rowspan="1">4635</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.testNG.DataProviderExample#fillQueryTextArea</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Market capitalization &gt; 300 AND
-Price to earning &lt; 14 AND
-Return on capital employed &gt; 20%</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.testNG.DataProviderExample#fillQueryTextArea</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Market capitalization &gt; 500 AND
-Price to earning &lt; 15 AND
-Return on capital employed &gt; 22%</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.testNG.DataProviderExample#fillQueryTextArea</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Market capitalization &gt; 100 AND
-Price to earning &lt; 10 AND
-Return on capital employed &gt; 15%</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.testNG.DataProviderExample#fillQueryTextArea</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Market capitalization &gt; 200 AND
-Price to earning &lt; 12 AND
-Return on capital employed &gt; 17%</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Different TestNG Feature Test</h2><h3 id="m0">com.testNG.AssertionOfTestCase#googleTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Google page title does not match. expected [Google123] but found [Google]
+	at com.testNG.AssertionOfTestCase.googleTitleTest(AssertionOfTestCase.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.testNG.AssertionOfTestCase#googleTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Google page title does not match. expected [Google123] but found [Google]
+	at com.testNG.AssertionOfTestCase.googleTitleTest(AssertionOfTestCase.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.testNG.AssertionOfTestCase#googleTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Google page title does not match. expected [Google123] but found [Google]
+	at com.testNG.AssertionOfTestCase.googleTitleTest(AssertionOfTestCase.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.testNG.AssertionOfTestCase#googleLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.testNG.AssertionOfTestCase#searchTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
