@@ -23,6 +23,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 	
+	public static final int failedTestRetryLimit = 2;
+	
 	public static ExtentSparkReporter sparkReporter;
 	public static ExtentReports extent;
 	public static ExtentTest test;
