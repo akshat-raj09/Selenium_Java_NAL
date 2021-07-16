@@ -51,7 +51,7 @@ public class LoginPageTest extends TestBase{
                         .put("URL", prop.getProperty("url"))
                         .put("OS", prop.getProperty("browser"))
                         .put("Executed By User", System.getProperty("user.name"))
-                        .build(), System.getProperty("user.dir") + "\\allure-result\\");
+                        .build(), System.getProperty("user.dir") + "\\allure-results\\");
     }
 	
 	
