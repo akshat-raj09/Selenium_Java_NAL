@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-18T18:37:08 IST" name="Screener.in Test Automation Suite using Singleton Pattern" finished-at="2021-07-18T18:37:38 IST" duration-ms="30302">
+    <groups>
+    </groups>
+    <test started-at="2021-07-18T18:37:08 IST" name="Screener.in different pages Test using Singleton pattern" finished-at="2021-07-18T18:37:38 IST" duration-ms="30302">
+      <class name="testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginPageTest@5cee5251]" started-at="2021-07-18T18:37:08 IST" name="setup" finished-at="2021-07-18T18:37:22 IST" duration-ms="13812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:testcases.LoginPageTest@5cee5251]" started-at="2021-07-18T18:37:22 IST" name="loginPageTitleTest" description="verifying title of the page" finished-at="2021-07-18T18:37:22 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@5cee5251]" started-at="2021-07-18T18:37:22 IST" name="tearDown" finished-at="2021-07-18T18:37:22 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginPageTest@5cee5251]" started-at="2021-07-18T18:37:23 IST" name="setup" finished-at="2021-07-18T18:37:29 IST" duration-ms="6254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="screenerImageLogoTest()[pri:2, instance:testcases.LoginPageTest@5cee5251]" started-at="2021-07-18T18:37:29 IST" name="screenerImageLogoTest" description="screener image logo test" finished-at="2021-07-18T18:37:29 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenerImageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@5cee5251]" started-at="2021-07-18T18:37:29 IST" name="tearDown" finished-at="2021-07-18T18:37:29 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginPageTest@5cee5251]" started-at="2021-07-18T18:37:29 IST" name="setup" finished-at="2021-07-18T18:37:35 IST" duration-ms="5982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:3, instance:testcases.LoginPageTest@5cee5251]" started-at="2021-07-18T18:37:35 IST" name="loginTest" description="Logging into the acount" finished-at="2021-07-18T18:37:38 IST" duration-ms="2651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@5cee5251]" started-at="2021-07-18T18:37:38 IST" name="tearDown" finished-at="2021-07-18T18:37:38 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginPageTest -->
+    </test> <!-- Screener.in different pages Test using Singleton pattern -->
+  </suite> <!-- Screener.in Test Automation Suite using Singleton Pattern -->
+</testng-results>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is TestNG Xml Template file that is used to automatically execute all the classes present in this .xml file.  -->
+<!-- We can create different .xml template files for different scenarios for example : We can create 2 different .xml files for different use cases (testng_sanity.xml & testng_regression.xml). -->
+<!-- If we want to execute only some classes then we can put those classes into testng_sanity.xml & run it & all the classes can be put inside testng_regression.xml for complete testing. -->
+<!-- This .xml file is also called test runner class. -->
+
+<!-- /********************************** Singleton Pattern ***********************************
+ * 
+ * In singleton pattern we need to initialize the webdriver instance just once.
+ * If the driver is initialized once it will never come inside the if(driver == null) condition.
+ * After quitting the browser in quit() the driver is again initialized to null.
+ * 
+ */ -->
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Screener.in Test Automation Suite using Singleton Pattern" guice-stage="DEVELOPMENT">
+
+	<test name="Screener.in different pages Test using Singleton pattern">
+
+		<classes>
+			<class name="testcases.LoginPageTest"/>
+		</classes>
+
+	</test> <!-- Screener.in different pages Test using Singleton pattern -->
+
+</suite> <!-- Screener.in Test Automation Suite using Singleton Pattern -->
