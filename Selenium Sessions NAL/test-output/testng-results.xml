@@ -1,209 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="2" ignored="0" total="5" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-16T22:28:29 IST" name="TestNG Basics Test Automation Suite" finished-at="2021-07-16T22:29:22 IST" duration-ms="52957">
+  <suite started-at="2021-07-21T13:28:14 IST" name="Default suite" finished-at="2021-07-21T13:31:40 IST" duration-ms="205910">
     <groups>
-      <group name="Google Search Visual Elements Tests">
-        <method signature="AssertionOfTestCase.googleLogoTest()[pri:2, instance:com.testNG.AssertionOfTestCase@36fc695d]" name="googleLogoTest" class="com.testNG.AssertionOfTestCase"/>
-        <method signature="AssertionOfTestCase.googleTitleTest()[pri:1, instance:com.testNG.AssertionOfTestCase@36fc695d]" name="googleTitleTest" class="com.testNG.AssertionOfTestCase"/>
-      </group> <!-- Google Search Visual Elements Tests -->
-      <group name="Google Search Page Signin Button Tests">
-        <method signature="AssertionOfTestCase.searchTest()[pri:3, instance:com.testNG.AssertionOfTestCase@36fc695d]" name="searchTest" class="com.testNG.AssertionOfTestCase"/>
-      </group> <!-- Google Search Page Signin Button Tests -->
     </groups>
-    <test started-at="2021-07-16T22:28:29 IST" name="Different TestNG Feature Test" finished-at="2021-07-16T22:29:22 IST" duration-ms="52957">
-      <class name="com.testNG.AssertionOfTestCase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:28:29 IST" name="setup" finished-at="2021-07-16T22:28:38 IST" duration-ms="9368" status="PASS">
+    <test started-at="2021-07-21T13:28:14 IST" name="Default test" finished-at="2021-07-21T13:31:40 IST" duration-ms="205910">
+      <class name="com.testNG.TestCaseWithDifferentNetworkBandwidth">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:28:14 IST" name="setup" finished-at="2021-07-21T13:28:21 IST" duration-ms="6276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="googleTitleTest()[pri:1, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:28:38 IST" name="googleTitleTest" finished-at="2021-07-16T22:28:38 IST" duration-ms="43" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Google page title does not match. expected [Google123] but found [Google]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Google page title does not match. expected [Google123] but found [Google]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at com.testNG.AssertionOfTestCase.googleTitleTest(AssertionOfTestCase.java:51)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="test(int,int)[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:28:21 IST" name="test" data-provider="networkBandwidth" finished-at="2021-07-21T13:29:47 IST" duration-ms="85989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:28:38 IST" name="tearDown" finished-at="2021-07-16T22:28:41 IST" duration-ms="3378" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:29:47 IST" name="tearDown" finished-at="2021-07-21T13:29:47 IST" duration-ms="614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:28:41 IST" name="setup" finished-at="2021-07-16T22:28:47 IST" duration-ms="5073" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:29:47 IST" name="setup" finished-at="2021-07-21T13:29:49 IST" duration-ms="1844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="googleTitleTest()[pri:1, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:28:47 IST" name="googleTitleTest" finished-at="2021-07-16T22:28:47 IST" duration-ms="17" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Google page title does not match. expected [Google123] but found [Google]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Google page title does not match. expected [Google123] but found [Google]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at com.testNG.AssertionOfTestCase.googleTitleTest(AssertionOfTestCase.java:51)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="test(int,int)[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:29:49 IST" name="test" data-provider="networkBandwidth" finished-at="2021-07-21T13:30:33 IST" duration-ms="44268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7000]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:28:47 IST" name="tearDown" finished-at="2021-07-16T22:28:50 IST" duration-ms="3364" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:30:33 IST" name="tearDown" finished-at="2021-07-21T13:30:34 IST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:28:50 IST" name="setup" finished-at="2021-07-16T22:28:55 IST" duration-ms="5365" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:30:34 IST" name="setup" finished-at="2021-07-21T13:30:35 IST" duration-ms="1421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="googleTitleTest()[pri:1, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:28:55 IST" name="googleTitleTest" finished-at="2021-07-16T22:28:55 IST" duration-ms="10" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Google page title does not match. expected [Google123] but found [Google]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Google page title does not match. expected [Google123] but found [Google]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at com.testNG.AssertionOfTestCase.googleTitleTest(AssertionOfTestCase.java:51)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="test(int,int)[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:30:35 IST" name="test" data-provider="networkBandwidth" finished-at="2021-07-21T13:31:04 IST" duration-ms="29358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9000]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:28:55 IST" name="tearDown" finished-at="2021-07-16T22:28:59 IST" duration-ms="3455" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:31:04 IST" name="tearDown" finished-at="2021-07-21T13:31:05 IST" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:28:59 IST" name="setup" finished-at="2021-07-16T22:29:04 IST" duration-ms="5164" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:31:05 IST" name="setup" finished-at="2021-07-21T13:31:06 IST" duration-ms="1082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="googleLogoTest()[pri:2, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:29:04 IST" name="googleLogoTest" finished-at="2021-07-16T22:29:04 IST" duration-ms="521" status="PASS">
+        <test-method signature="test(int,int)[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:31:06 IST" name="test" data-provider="networkBandwidth" finished-at="2021-07-21T13:31:26 IST" duration-ms="19986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11000]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:29:04 IST" name="tearDown" finished-at="2021-07-16T22:29:08 IST" duration-ms="3392" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:31:26 IST" name="tearDown" finished-at="2021-07-21T13:31:26 IST" duration-ms="338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:29:08 IST" name="setup" finished-at="2021-07-16T22:29:13 IST" duration-ms="4831" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:31:26 IST" name="setup" finished-at="2021-07-21T13:31:27 IST" duration-ms="1130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchTest()[pri:3, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:29:13 IST" name="searchTest" finished-at="2021-07-16T22:29:17 IST" duration-ms="4635" status="PASS">
+        <test-method signature="test(int,int)[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:31:27 IST" name="test" data-provider="networkBandwidth" finished-at="2021-07-21T13:31:33 IST" duration-ms="5751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNG.AssertionOfTestCase@36fc695d]" started-at="2021-07-16T22:29:17 IST" name="tearDown" finished-at="2021-07-16T22:29:22 IST" duration-ms="4252" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:31:33 IST" name="tearDown" finished-at="2021-07-21T13:31:34 IST" duration-ms="1261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.testNG.AssertionOfTestCase -->
-    </test> <!-- Different TestNG Feature Test -->
-  </suite> <!-- TestNG Basics Test Automation Suite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:31:34 IST" name="setup" finished-at="2021-07-21T13:31:36 IST" duration-ms="1466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(int,int)[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:31:36 IST" name="test" data-provider="networkBandwidth" finished-at="2021-07-21T13:31:39 IST" duration-ms="3099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testNG.TestCaseWithDifferentNetworkBandwidth@408d971b]" started-at="2021-07-21T13:31:39 IST" name="tearDown" finished-at="2021-07-21T13:31:40 IST" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testNG.TestCaseWithDifferentNetworkBandwidth -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

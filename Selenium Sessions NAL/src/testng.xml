@@ -21,6 +21,7 @@
 			<class name="com.testNG.TimeOut"/>
 			<class name="com.testNG.ExpectedExceptions"/>
 			<class name="com.testNG.AssertionOfTestCase"/>
+			<class name="com.testNG.TestCaseWithDifferentNetworkBandwidth"/>
 		</classes>
 
 	</test> <!-- Different TestNG Feature Test -->
