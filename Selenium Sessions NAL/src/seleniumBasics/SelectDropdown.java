@@ -12,6 +12,8 @@ public class SelectDropdown {
 
 	public static void main(String[] args) throws InterruptedException {
 		
+		List<WebElement> options = null;
+		
 		System.setProperty("webdriver.chrome.driver", "D:\\Data\\Study Material\\Java\\selenium browser drivers\\chromedriver.exe");		
 		WebDriver chrome = new ChromeDriver();
 		
@@ -39,8 +41,14 @@ public class SelectDropdown {
 		dropdown.selectByValue("Manual");
 		Thread.sleep(1500);
 		
+		// List options of type WebElement will have will have all the options of the select menu. 
+		options = dropdown.getOptions();
+		for(WebElement option : options) {
+			System.out.println(option.getText());
+		}
+		
 		// select value from a dropdown without using Select Class
-		List<WebElement> options = dropdown.getOptions();
+		options = chrome.findElements(By.xpath("//select[@id='testingDropdown']//option"));
 		for(WebElement option : options) {
 			if(option.getText().equalsIgnoreCase("Database Testing")) {
 				option.click();
