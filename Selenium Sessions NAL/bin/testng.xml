@@ -22,6 +22,7 @@
 			<class name="com.testNG.ExpectedExceptions"/>
 			<class name="com.testNG.AssertionOfTestCase"/>
 			<class name="com.testNG.TestCaseWithDifferentNetworkBandwidth"/>
+			<class name="com.testNG.ScreenRecordTest"/>
 		</classes>
 
 	</test> <!-- Different TestNG Feature Test -->

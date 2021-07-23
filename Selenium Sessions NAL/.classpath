@@ -58,5 +58,6 @@
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/poi-5.0.0/ooxml-lib/curvesapi-1.06.jar"/>
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/poi-5.0.0/ooxml-lib/xmlbeans-4.0.0.jar"/>
 	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/twilio sms automation jar/twilio-7.42.0.jar"/>
+	<classpathentry kind="lib" path="D:/Data/Study Material/Java/selenium browser drivers/monte screen recorder jar/monte-screen-recorder-0.7.7.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

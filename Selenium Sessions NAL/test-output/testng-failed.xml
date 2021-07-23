@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testNG.TestCaseWithDifferentNetworkBandwidth">
+      <class name="com.testNG.ScreenRecordTest">
         <methods>
           <include name="tearDown"/>
+          <include name="navigation_FeatureTest"/>
           <include name="setup"/>
-          <include name="test" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.testNG.TestCaseWithDifferentNetworkBandwidth -->
+      </class> <!-- com.testNG.ScreenRecordTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
