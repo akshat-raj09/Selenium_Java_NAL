@@ -95,6 +95,7 @@
   <dependencies>
   
   
+  
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
@@ -150,10 +151,15 @@
         <artifactId>allure-environment-writer</artifactId>
         <version>1.0.0</version>
     </dependency>
+    
+    <dependency>
+	  <groupId>com.paulhammant</groupId>
+	  <artifactId>ngwebdriver</artifactId>
+	  <version>1.1.6</version>
+    </dependency>
 
 
 	<!-- APACHE POI DEPENDENCIES BELOW -->
-
 
 	<dependency>
 		<groupId>org.apache.poi</groupId>
@@ -293,7 +299,6 @@
 		<artifactId>xmlbeans</artifactId>
 		<version>4.0.0</version>
 	</dependency>
-    
     
     
       

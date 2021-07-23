@@ -21,31 +21,32 @@ Class-Path: lib/selenium-java-3.141.59.jar lib/selenium-api-3.141.59.jar
  tions-2.12.3.jar lib/jackson-core-2.12.3.jar lib/tika-core-1.26.jar lib
  /jaxb-api-2.3.1.jar lib/javax.activation-api-1.2.0.jar lib/activation-1
  .1.1.jar lib/joor-java-8-0.9.14.jar lib/allure-test-filter-2.14.0.jar l
- ib/allure-environment-writer-1.0.0.jar lib/poi-5.0.0.jar lib/jcl-over-s
- lf4j-1.7.30.jar lib/poi-examples-5.0.0.jar lib/poi-excelant-5.0.0.jar l
- ib/ant-1.10.9.jar lib/ant-launcher-1.10.9.jar lib/poi-ooxml-full-5.0.0.
- jar lib/poi-ooxml-5.0.0.jar lib/batik-all-1.13.jar lib/poi-ooxml-lite-5
- .0.0.jar lib/poi-scratchpad-5.0.0.jar lib/batik-anim-1.13.jar lib/batik
- -shared-resources-1.13.jar lib/batik-awt-util-1.13.jar lib/batik-bridge
- -1.13.jar lib/batik-codec-1.13.jar lib/batik-constants-1.13.jar lib/bat
- ik-css-1.13.jar lib/batik-dom-1.13.jar lib/xalan-2.7.2.jar lib/serializ
- er-2.7.2.jar lib/xml-apis-1.4.01.jar lib/batik-ext-1.13.jar lib/batik-e
- xtension-1.13.jar lib/batik-gui-util-1.13.jar lib/batik-gvt-1.13.jar li
- b/batik-i18n-1.13.jar lib/batik-parser-1.13.jar lib/batik-rasterizer-ex
- t-1.13.jar lib/batik-rasterizer-1.13.jar lib/batik-script-1.13.jar lib/
- batik-slideshow-1.13.jar lib/batik-squiggle-ext-1.13.jar lib/batik-squi
- ggle-1.13.jar lib/batik-svg-dom-1.13.jar lib/batik-svgbrowser-1.13.jar 
- lib/batik-svggen-1.13.jar lib/batik-svgpp-1.13.jar lib/batik-svgrasteri
- zer-1.13.jar lib/batik-swing-1.13.jar lib/batik-transcoder-1.13.jar lib
- /batik-util-1.13.jar lib/batik-ttf2svg-1.13.jar lib/batik-xml-1.13.jar 
- lib/bcpkix-jdk15on-1.68.jar lib/bcprov-jdk15on-1.68.jar lib/fontbox-2.0
- .22.jar lib/commons-logging-1.2.jar lib/graphics2d-0.30.jar lib/pdfbox-
- 2.0.22.jar lib/xml-apis-ext-1.3.04.jar lib/xmlgraphics-commons-2.4.jar 
- lib/xmlsec-2.2.1.jar lib/woodstox-core-5.2.1.jar lib/stax2-api-4.2.jar 
- lib/jakarta.xml.bind-api-2.3.2.jar lib/jakarta.activation-api-1.2.1.jar
-  lib/commons-codec-1.15.jar lib/commons-collections4-4.4.jar lib/common
- s-math3-3.6.1.jar lib/SparseBitSet-1.2.jar lib/commons-compress-1.20.ja
- r lib/curvesapi-1.06.jar lib/xmlbeans-4.0.0.jar
+ ib/allure-environment-writer-1.0.0.jar lib/ngwebdriver-1.1.6.jar lib/po
+ i-5.0.0.jar lib/jcl-over-slf4j-1.7.30.jar lib/poi-examples-5.0.0.jar li
+ b/poi-excelant-5.0.0.jar lib/ant-1.10.9.jar lib/ant-launcher-1.10.9.jar
+  lib/poi-ooxml-full-5.0.0.jar lib/poi-ooxml-5.0.0.jar lib/batik-all-1.1
+ 3.jar lib/poi-ooxml-lite-5.0.0.jar lib/poi-scratchpad-5.0.0.jar lib/bat
+ ik-anim-1.13.jar lib/batik-shared-resources-1.13.jar lib/batik-awt-util
+ -1.13.jar lib/batik-bridge-1.13.jar lib/batik-codec-1.13.jar lib/batik-
+ constants-1.13.jar lib/batik-css-1.13.jar lib/batik-dom-1.13.jar lib/xa
+ lan-2.7.2.jar lib/serializer-2.7.2.jar lib/xml-apis-1.4.01.jar lib/bati
+ k-ext-1.13.jar lib/batik-extension-1.13.jar lib/batik-gui-util-1.13.jar
+  lib/batik-gvt-1.13.jar lib/batik-i18n-1.13.jar lib/batik-parser-1.13.j
+ ar lib/batik-rasterizer-ext-1.13.jar lib/batik-rasterizer-1.13.jar lib/
+ batik-script-1.13.jar lib/batik-slideshow-1.13.jar lib/batik-squiggle-e
+ xt-1.13.jar lib/batik-squiggle-1.13.jar lib/batik-svg-dom-1.13.jar lib/
+ batik-svgbrowser-1.13.jar lib/batik-svggen-1.13.jar lib/batik-svgpp-1.1
+ 3.jar lib/batik-svgrasterizer-1.13.jar lib/batik-swing-1.13.jar lib/bat
+ ik-transcoder-1.13.jar lib/batik-util-1.13.jar lib/batik-ttf2svg-1.13.j
+ ar lib/batik-xml-1.13.jar lib/bcpkix-jdk15on-1.68.jar lib/bcprov-jdk15o
+ n-1.68.jar lib/fontbox-2.0.22.jar lib/commons-logging-1.2.jar lib/graph
+ ics2d-0.30.jar lib/pdfbox-2.0.22.jar lib/xml-apis-ext-1.3.04.jar lib/xm
+ lgraphics-commons-2.4.jar lib/xmlsec-2.2.1.jar lib/woodstox-core-5.2.1.
+ jar lib/stax2-api-4.2.jar lib/jakarta.xml.bind-api-2.3.2.jar lib/jakart
+ a.activation-api-1.2.1.jar lib/commons-codec-1.15.jar lib/commons-colle
+ ctions4-4.4.jar lib/commons-math3-3.6.1.jar lib/SparseBitSet-1.2.jar li
+ b/commons-compress-1.20.jar lib/curvesapi-1.06.jar lib/xmlbeans-4.0.0.j
+ ar
 Main-Class: com.screener.qa.testCasesRunnableJAR.TestRunnerJAR
 Created-By: Maven Integration for Eclipse
 
