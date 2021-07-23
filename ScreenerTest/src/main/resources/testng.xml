@@ -22,6 +22,7 @@
 			<class name="com.screener.qa.testcases.HomePageTest"/>
 			<class name="com.screener.qa.testcases.ScreensPageTest"/>
 			<class name="com.screener.qa.testcases.SignupPageTest"/>
+			<class name="com.screener.qa.testcases.CreateScreenPageTest"/>
 		</classes>
 
 	</test> <!-- Screener.in different pages Test -->

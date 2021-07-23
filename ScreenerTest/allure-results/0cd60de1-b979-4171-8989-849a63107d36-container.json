@@ -1,0 +1,1 @@
+{"uuid":"0cd60de1-b979-4171-8989-849a63107d36","name":"Command line suite","children":["9ab04853-38a3-407b-a4a0-6fa4b9db6910"],"befores":[{"name":"setAllureEnvironment","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1627021853305,"stop":1627021853694}],"afters":[],"links":[],"start":1627021853277,"stop":1627021933413}

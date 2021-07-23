@@ -1,5 +1,51 @@
 Manifest-Version: 1.0
-Built-By: rajva
-Build-Jdk: 16.0.1
+Build-Jdk-Spec: 16
+Class-Path: lib/selenium-java-3.141.59.jar lib/selenium-api-3.141.59.jar
+  lib/selenium-chrome-driver-3.141.59.jar lib/selenium-edge-driver-3.141
+ .59.jar lib/selenium-firefox-driver-3.141.59.jar lib/selenium-ie-driver
+ -3.141.59.jar lib/selenium-opera-driver-3.141.59.jar lib/selenium-remot
+ e-driver-3.141.59.jar lib/selenium-safari-driver-3.141.59.jar lib/selen
+ ium-support-3.141.59.jar lib/byte-buddy-1.8.15.jar lib/commons-exec-1.3
+ .jar lib/guava-25.0-jre.jar lib/jsr305-1.3.9.jar lib/checker-compat-qua
+ l-2.0.0.jar lib/error_prone_annotations-2.1.3.jar lib/j2objc-annotation
+ s-1.1.jar lib/animal-sniffer-annotations-1.14.jar lib/okhttp-3.11.0.jar
+  lib/okio-1.14.0.jar lib/testng-7.4.0.jar lib/jcommander-1.78.jar lib/j
+ query-3.5.1.jar lib/webdrivermanager-4.4.3.jar lib/slf4j-api-1.7.30.jar
+  lib/commons-io-2.8.0.jar lib/gson-2.8.6.jar lib/commons-lang3-3.12.0.j
+ ar lib/httpclient5-5.0.3.jar lib/httpcore5-5.0.2.jar lib/httpcore5-h2-5
+ .0.2.jar lib/jarchivelib-1.1.0.jar lib/jsoup-1.13.1.jar lib/log4j-api-2
+ .14.1.jar lib/log4j-core-2.14.1.jar lib/extentreports-5.0.8.jar lib/rxj
+ ava-3.0.4.jar lib/reactive-streams-1.0.3.jar lib/freemarker-2.3.30.jar 
+ lib/allure-testng-2.14.0.jar lib/allure-java-commons-2.14.0.jar lib/all
+ ure-model-2.14.0.jar lib/jackson-databind-2.12.3.jar lib/jackson-annota
+ tions-2.12.3.jar lib/jackson-core-2.12.3.jar lib/tika-core-1.26.jar lib
+ /jaxb-api-2.3.1.jar lib/javax.activation-api-1.2.0.jar lib/activation-1
+ .1.1.jar lib/joor-java-8-0.9.14.jar lib/allure-test-filter-2.14.0.jar l
+ ib/allure-environment-writer-1.0.0.jar lib/poi-5.0.0.jar lib/jcl-over-s
+ lf4j-1.7.30.jar lib/poi-examples-5.0.0.jar lib/poi-excelant-5.0.0.jar l
+ ib/ant-1.10.9.jar lib/ant-launcher-1.10.9.jar lib/poi-ooxml-full-5.0.0.
+ jar lib/poi-ooxml-5.0.0.jar lib/batik-all-1.13.jar lib/poi-ooxml-lite-5
+ .0.0.jar lib/poi-scratchpad-5.0.0.jar lib/batik-anim-1.13.jar lib/batik
+ -shared-resources-1.13.jar lib/batik-awt-util-1.13.jar lib/batik-bridge
+ -1.13.jar lib/batik-codec-1.13.jar lib/batik-constants-1.13.jar lib/bat
+ ik-css-1.13.jar lib/batik-dom-1.13.jar lib/xalan-2.7.2.jar lib/serializ
+ er-2.7.2.jar lib/xml-apis-1.4.01.jar lib/batik-ext-1.13.jar lib/batik-e
+ xtension-1.13.jar lib/batik-gui-util-1.13.jar lib/batik-gvt-1.13.jar li
+ b/batik-i18n-1.13.jar lib/batik-parser-1.13.jar lib/batik-rasterizer-ex
+ t-1.13.jar lib/batik-rasterizer-1.13.jar lib/batik-script-1.13.jar lib/
+ batik-slideshow-1.13.jar lib/batik-squiggle-ext-1.13.jar lib/batik-squi
+ ggle-1.13.jar lib/batik-svg-dom-1.13.jar lib/batik-svgbrowser-1.13.jar 
+ lib/batik-svggen-1.13.jar lib/batik-svgpp-1.13.jar lib/batik-svgrasteri
+ zer-1.13.jar lib/batik-swing-1.13.jar lib/batik-transcoder-1.13.jar lib
+ /batik-util-1.13.jar lib/batik-ttf2svg-1.13.jar lib/batik-xml-1.13.jar 
+ lib/bcpkix-jdk15on-1.68.jar lib/bcprov-jdk15on-1.68.jar lib/fontbox-2.0
+ .22.jar lib/commons-logging-1.2.jar lib/graphics2d-0.30.jar lib/pdfbox-
+ 2.0.22.jar lib/xml-apis-ext-1.3.04.jar lib/xmlgraphics-commons-2.4.jar 
+ lib/xmlsec-2.2.1.jar lib/woodstox-core-5.2.1.jar lib/stax2-api-4.2.jar 
+ lib/jakarta.xml.bind-api-2.3.2.jar lib/jakarta.activation-api-1.2.1.jar
+  lib/commons-codec-1.15.jar lib/commons-collections4-4.4.jar lib/common
+ s-math3-3.6.1.jar lib/SparseBitSet-1.2.jar lib/commons-compress-1.20.ja
+ r lib/curvesapi-1.06.jar lib/xmlbeans-4.0.0.jar
+Main-Class: com.screener.qa.testCasesRunnableJAR.TestRunnerJAR
 Created-By: Maven Integration for Eclipse
 

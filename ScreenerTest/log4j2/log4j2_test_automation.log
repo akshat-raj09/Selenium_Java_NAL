@@ -1,145 +1,52 @@
-[INFO ] 2021-07-15 16:53:40.534 [main] TestNgAllureListener - Test Cases are about to start
-[INFO ] 2021-07-15 16:53:40.566 [main] TestNgExtentListener - Test Cases are about to start Screener.in different pages Test
-[INFO ] 2021-07-15 16:53:45.044 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:53:45.833 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:53:48.159 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:53:48.495 [main] TestNgAllureListener - Test case: loginPageTitleTest is Started
-[INFO ] 2021-07-15 16:53:48.589 [main] TestNgExtentListener - Test case: loginPageTitleTest is Started
-[INFO ] 2021-07-15 16:53:48.636 [main] LoginPageTest - login page title test started
-[INFO ] 2021-07-15 16:53:48.745 [main] TestNgAllureListener - Test case: loginPageTitleTest is Failed
-[INFO ] 2021-07-15 16:53:48.745 [main] TestNgAllureListener - The Error Message is: java.lang.AssertionError: Title does not match expected [Login - Screener1234] but found [Login - Screener]
-[INFO ] 2021-07-15 16:53:49.149 [main] TestNgExtentListener - Test case: loginPageTitleTest is Failed
-[INFO ] 2021-07-15 16:53:49.149 [main] TestNgExtentListener - The Error Message is: java.lang.AssertionError: Title does not match expected [Login - Screener1234] but found [Login - Screener]
-[INFO ] 2021-07-15 16:53:51.839 [main] LoginPageTest - Browser closed
-[INFO ] 2021-07-15 16:53:53.213 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:53:53.905 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:53:56.012 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:53:56.017 [main] TestNgAllureListener - Test case: screenerImageLogoTest is Started
-[INFO ] 2021-07-15 16:53:56.023 [main] TestNgExtentListener - Test case: screenerImageLogoTest is Started
-[INFO ] 2021-07-15 16:53:56.024 [main] LoginPageTest - Login page logo test started
-[INFO ] 2021-07-15 16:53:56.186 [main] LoginPageTest - login page logo test ended
-[INFO ] 2021-07-15 16:53:56.187 [main] TestNgAllureListener - Test case: screenerImageLogoTest is Passed
-[INFO ] 2021-07-15 16:53:56.191 [main] TestNgExtentListener - Test case: screenerImageLogoTest is Passed
-[INFO ] 2021-07-15 16:53:59.426 [main] LoginPageTest - Browser closed
-[INFO ] 2021-07-15 16:54:00.647 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:54:01.515 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:54:03.903 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:54:03.907 [main] TestNgAllureListener - Test case: loginTest is Started
-[INFO ] 2021-07-15 16:54:03.913 [main] TestNgExtentListener - Test case: loginTest is Started
-[INFO ] 2021-07-15 16:54:05.156 [main] LoginPageTest - logged into website
-[INFO ] 2021-07-15 16:54:05.157 [main] TestNgAllureListener - Test case: loginTest is Passed
-[INFO ] 2021-07-15 16:54:05.163 [main] TestNgExtentListener - Test case: loginTest is Passed
-[INFO ] 2021-07-15 16:54:08.449 [main] LoginPageTest - Browser closed
-[INFO ] 2021-07-15 16:54:09.678 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:54:10.229 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:54:12.345 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:54:13.505 [main] TestNgAllureListener - Test case: validateHomePageTitleTest is Started
-[INFO ] 2021-07-15 16:54:13.512 [main] TestNgExtentListener - Test case: validateHomePageTitleTest is Started
-[INFO ] 2021-07-15 16:54:13.512 [main] HomePageTest - Home page title test started
-[INFO ] 2021-07-15 16:54:13.535 [main] TestNgAllureListener - Test case: validateHomePageTitleTest is Failed
-[INFO ] 2021-07-15 16:54:13.535 [main] TestNgAllureListener - The Error Message is: java.lang.AssertionError: Home Page title does not match expected [Dashboard - Screener1234] but found [Dashboard - Screener]
-[INFO ] 2021-07-15 16:54:13.791 [main] TestNgExtentListener - Test case: validateHomePageTitleTest is Failed
-[INFO ] 2021-07-15 16:54:13.791 [main] TestNgExtentListener - The Error Message is: java.lang.AssertionError: Home Page title does not match expected [Dashboard - Screener1234] but found [Dashboard - Screener]
-[INFO ] 2021-07-15 16:54:17.279 [main] HomePageTest - Browser closed
-[INFO ] 2021-07-15 16:54:18.482 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:54:19.125 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:54:21.353 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:54:22.570 [main] TestNgAllureListener - Test case: validateUserNameLabelTest is Started
-[INFO ] 2021-07-15 16:54:22.578 [main] TestNgExtentListener - Test case: validateUserNameLabelTest is Started
-[INFO ] 2021-07-15 16:54:22.579 [main] HomePageTest - Home page validate username label test started
-[INFO ] 2021-07-15 16:54:22.655 [main] HomePageTest - Home page validate username label test ended
-[INFO ] 2021-07-15 16:54:22.655 [main] TestNgAllureListener - Test case: validateUserNameLabelTest is Passed
-[INFO ] 2021-07-15 16:54:22.655 [main] TestNgExtentListener - Test case: validateUserNameLabelTest is Passed
-[INFO ] 2021-07-15 16:54:25.898 [main] HomePageTest - Browser closed
-[INFO ] 2021-07-15 16:54:26.940 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:54:27.794 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:54:30.114 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:54:31.326 [main] TestNgAllureListener - Test case: clickOnScreensLinkTest is Started
-[INFO ] 2021-07-15 16:54:31.331 [main] TestNgExtentListener - Test case: clickOnScreensLinkTest is Started
-[INFO ] 2021-07-15 16:54:31.332 [main] HomePageTest - Home page click on screens link test started
-[INFO ] 2021-07-15 16:54:31.566 [main] HomePageTest - Home page click on screens link test started
-[INFO ] 2021-07-15 16:54:31.567 [main] TestNgAllureListener - Test case: clickOnScreensLinkTest is Passed
-[INFO ] 2021-07-15 16:54:31.571 [main] TestNgExtentListener - Test case: clickOnScreensLinkTest is Passed
-[INFO ] 2021-07-15 16:54:34.819 [main] HomePageTest - Browser closed
-[INFO ] 2021-07-15 16:54:36.034 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:54:36.809 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:54:39.001 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:54:40.594 [main] TestNgAllureListener - Test case: validateScreensPageTitleTest is Started
-[INFO ] 2021-07-15 16:54:40.608 [main] TestNgExtentListener - Test case: validateScreensPageTitleTest is Started
-[INFO ] 2021-07-15 16:54:40.608 [main] ScreensPageTest - Screens page title test started
-[INFO ] 2021-07-15 16:54:40.656 [main] ScreensPageTest - Screens page title test ended
-[INFO ] 2021-07-15 16:54:40.657 [main] TestNgAllureListener - Test case: validateScreensPageTitleTest is Passed
-[INFO ] 2021-07-15 16:54:40.659 [main] TestNgExtentListener - Test case: validateScreensPageTitleTest is Passed
-[INFO ] 2021-07-15 16:54:43.911 [main] ScreensPageTest - Browser closed
-[INFO ] 2021-07-15 16:54:44.992 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:54:45.840 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:54:48.087 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:54:49.670 [main] TestNgAllureListener - Test case: validateUserNameLabelTest is Started
-[INFO ] 2021-07-15 16:54:49.676 [main] TestNgExtentListener - Test case: validateUserNameLabelTest is Started
-[INFO ] 2021-07-15 16:54:49.677 [main] ScreensPageTest - Screens page username label test started
-[INFO ] 2021-07-15 16:54:49.782 [main] ScreensPageTest - Screens page username label test ended
-[INFO ] 2021-07-15 16:54:49.782 [main] TestNgAllureListener - Test case: validateUserNameLabelTest is Passed
-[INFO ] 2021-07-15 16:54:49.782 [main] TestNgExtentListener - Test case: validateUserNameLabelTest is Passed
-[INFO ] 2021-07-15 16:54:53.029 [main] ScreensPageTest - Browser closed
-[INFO ] 2021-07-15 16:54:54.219 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:54:55.432 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:54:58.043 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:54:59.442 [main] TestNgAllureListener - Test case: validatecreateScreenLinkTextTest is Started
-[INFO ] 2021-07-15 16:54:59.452 [main] TestNgExtentListener - Test case: validatecreateScreenLinkTextTest is Started
-[INFO ] 2021-07-15 16:54:59.453 [main] ScreensPageTest - Screens page create screen link text test started
-[INFO ] 2021-07-15 16:54:59.538 [main] ScreensPageTest - Screens page create screen link text test ended
-[INFO ] 2021-07-15 16:54:59.538 [main] TestNgAllureListener - Test case: validatecreateScreenLinkTextTest is Passed
-[INFO ] 2021-07-15 16:54:59.538 [main] TestNgExtentListener - Test case: validatecreateScreenLinkTextTest is Passed
-[INFO ] 2021-07-15 16:55:02.793 [main] ScreensPageTest - Browser closed
-[INFO ] 2021-07-15 16:55:03.967 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:55:04.962 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:55:06.920 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:55:08.305 [main] TestNgAllureListener - Test case: clickOnCreateScreenLinkTest is Started
-[INFO ] 2021-07-15 16:55:08.312 [main] TestNgExtentListener - Test case: clickOnCreateScreenLinkTest is Started
-[INFO ] 2021-07-15 16:55:08.313 [main] ScreensPageTest - click on create screen link test started
-[INFO ] 2021-07-15 16:55:08.841 [main] ScreensPageTest - click on create screen link test ended
-[INFO ] 2021-07-15 16:55:08.842 [main] TestNgAllureListener - Test case: clickOnCreateScreenLinkTest is Passed
-[INFO ] 2021-07-15 16:55:08.844 [main] TestNgExtentListener - Test case: clickOnCreateScreenLinkTest is Passed
-[INFO ] 2021-07-15 16:55:11.931 [main] ScreensPageTest - Browser closed
-[INFO ] 2021-07-15 16:55:13.080 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:55:13.994 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:55:16.313 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:55:16.566 [main] TestNgAllureListener - Test case: signupPageTitleTest is Started
-[INFO ] 2021-07-15 16:55:16.570 [main] TestNgExtentListener - Test case: signupPageTitleTest is Started
-[INFO ] 2021-07-15 16:55:16.571 [main] SignupPageTest - Signup page title test started
-[INFO ] 2021-07-15 16:55:16.598 [main] SignupPageTest - Signup page title test ended
-[INFO ] 2021-07-15 16:55:16.599 [main] TestNgAllureListener - Test case: signupPageTitleTest is Passed
-[INFO ] 2021-07-15 16:55:16.601 [main] TestNgExtentListener - Test case: signupPageTitleTest is Passed
-[INFO ] 2021-07-15 16:55:19.840 [main] SignupPageTest - Browser closed
-[INFO ] 2021-07-15 16:55:21.095 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:55:21.964 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:55:24.214 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:55:24.453 [main] TestNgAllureListener - Test case: fillCreateAccountFormTest is Started
-[INFO ] 2021-07-15 16:55:24.460 [main] TestNgExtentListener - Test case: fillCreateAccountFormTest is Started
-[INFO ] 2021-07-15 16:55:24.460 [main] SignupPageTest - Signup page fill create account form test started
-[INFO ] 2021-07-15 16:55:24.938 [main] SignupPageTest - Signup page fill create account form test ended
-[INFO ] 2021-07-15 16:55:24.939 [main] TestNgAllureListener - Test case: fillCreateAccountFormTest is Passed
-[INFO ] 2021-07-15 16:55:24.942 [main] TestNgExtentListener - Test case: fillCreateAccountFormTest is Passed
-[INFO ] 2021-07-15 16:55:28.184 [main] SignupPageTest - Browser closed
-[INFO ] 2021-07-15 16:55:29.249 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:55:30.114 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:55:32.194 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:55:32.451 [main] TestNgAllureListener - Test case: validateCreateAccountBtnTextTest is Started
-[INFO ] 2021-07-15 16:55:32.458 [main] TestNgExtentListener - Test case: validateCreateAccountBtnTextTest is Started
-[INFO ] 2021-07-15 16:55:32.459 [main] SignupPageTest - Signup page create account button text test started
-[INFO ] 2021-07-15 16:55:32.561 [main] SignupPageTest - Signup page create account button text test ended
-[INFO ] 2021-07-15 16:55:32.563 [main] TestNgAllureListener - Test case: validateCreateAccountBtnTextTest is Passed
-[INFO ] 2021-07-15 16:55:32.566 [main] TestNgExtentListener - Test case: validateCreateAccountBtnTextTest is Passed
-[INFO ] 2021-07-15 16:55:35.808 [main] SignupPageTest - Browser closed
-[INFO ] 2021-07-15 16:55:37.224 [main] TestBase - Browser started
-[INFO ] 2021-07-15 16:55:37.886 [main] TestBase - Maximized window & deleted all cookies
-[INFO ] 2021-07-15 16:55:40.555 [main] TestBase - Opened URL
-[INFO ] 2021-07-15 16:55:40.794 [main] TestNgAllureListener - Test case: searchCompanyFieldEnabledTest is Started
-[INFO ] 2021-07-15 16:55:40.803 [main] TestNgExtentListener - Test case: searchCompanyFieldEnabledTest is Started
-[INFO ] 2021-07-15 16:55:40.804 [main] SignupPageTest - Signup page search company field enabled test started
-[INFO ] 2021-07-15 16:55:40.875 [main] SignupPageTest - Signup page search company field enabled test ended
-[INFO ] 2021-07-15 16:55:40.875 [main] TestNgAllureListener - Test case: searchCompanyFieldEnabledTest is Passed
-[INFO ] 2021-07-15 16:55:40.875 [main] TestNgExtentListener - Test case: searchCompanyFieldEnabledTest is Passed
-[INFO ] 2021-07-15 16:55:44.106 [main] SignupPageTest - Browser closed
-[INFO ] 2021-07-15 16:55:44.106 [main] TestNgAllureListener - Test Cases execution has finished Screener.in different pages Test
-[INFO ] 2021-07-15 16:55:44.153 [main] TestNgExtentListener - Test Cases execution has finished Screener.in different pages Test
+[INFO ] 2021-07-23 12:00:53.719 [main] TestNgAllureListener - Test Cases are about to start
+[INFO ] 2021-07-23 12:00:53.744 [main] TestNgExtentListener - Test Cases are about to start Command line test
+[INFO ] 2021-07-23 12:01:15.121 [main] TestBase - Browser started
+[INFO ] 2021-07-23 12:01:15.536 [main] TestBase - Maximized window & deleted all cookies
+[INFO ] 2021-07-23 12:01:19.406 [main] TestBase - Opened URL
+[INFO ] 2021-07-23 12:01:20.367 [main] TestNgAllureListener - Test case: loginPageTitleTest is Started
+[INFO ] 2021-07-23 12:01:20.367 [main] TestNgExtentListener - Test case: loginPageTitleTest is Started
+[INFO ] 2021-07-23 12:01:20.847 [main] LoginPageTest - login page title test started
+[INFO ] 2021-07-23 12:01:20.882 [main] TestNgAllureListener - Test case: loginPageTitleTest is Skipped
+[INFO ] 2021-07-23 12:01:20.882 [main] TestNgExtentListener - Test case: loginPageTitleTest is Skipped
+[INFO ] 2021-07-23 12:01:23.538 [main] LoginPageTest - Browser closed
+[INFO ] 2021-07-23 12:01:27.772 [main] TestBase - Browser started
+[INFO ] 2021-07-23 12:01:29.003 [main] TestBase - Maximized window & deleted all cookies
+[INFO ] 2021-07-23 12:01:33.220 [main] TestBase - Opened URL
+[INFO ] 2021-07-23 12:01:33.437 [main] TestNgAllureListener - Test case: loginPageTitleTest is Started
+[INFO ] 2021-07-23 12:01:33.438 [main] TestNgExtentListener - Test case: loginPageTitleTest is Started
+[INFO ] 2021-07-23 12:01:33.457 [main] LoginPageTest - login page title test started
+[INFO ] 2021-07-23 12:01:33.471 [main] TestNgAllureListener - Test case: loginPageTitleTest is Skipped
+[INFO ] 2021-07-23 12:01:33.471 [main] TestNgExtentListener - Test case: loginPageTitleTest is Skipped
+[INFO ] 2021-07-23 12:01:35.885 [main] LoginPageTest - Browser closed
+[INFO ] 2021-07-23 12:01:39.189 [main] TestBase - Browser started
+[INFO ] 2021-07-23 12:01:40.432 [main] TestBase - Maximized window & deleted all cookies
+[INFO ] 2021-07-23 12:01:43.834 [main] TestBase - Opened URL
+[INFO ] 2021-07-23 12:01:43.902 [main] TestNgAllureListener - Test case: loginPageTitleTest is Started
+[INFO ] 2021-07-23 12:01:43.903 [main] TestNgExtentListener - Test case: loginPageTitleTest is Started
+[INFO ] 2021-07-23 12:01:43.914 [main] LoginPageTest - login page title test started
+[INFO ] 2021-07-23 12:01:43.935 [main] TestNgAllureListener - Test case: loginPageTitleTest is Failed
+[INFO ] 2021-07-23 12:01:43.936 [main] TestNgAllureListener - The Error Message is: java.lang.AssertionError: Title does not match expected [Login - Screener1234] but found [Login - Screener]
+[INFO ] 2021-07-23 12:01:44.269 [main] TestNgExtentListener - Test case: loginPageTitleTest is Failed
+[INFO ] 2021-07-23 12:01:44.269 [main] TestNgExtentListener - The Error Message is: java.lang.AssertionError: Title does not match expected [Login - Screener1234] but found [Login - Screener]
+[INFO ] 2021-07-23 12:01:47.728 [main] LoginPageTest - Browser closed
+[INFO ] 2021-07-23 12:01:52.005 [main] TestBase - Browser started
+[INFO ] 2021-07-23 12:01:52.656 [main] TestBase - Maximized window & deleted all cookies
+[INFO ] 2021-07-23 12:01:55.808 [main] TestBase - Opened URL
+[INFO ] 2021-07-23 12:01:55.956 [main] TestNgAllureListener - Test case: screenerImageLogoTest is Started
+[INFO ] 2021-07-23 12:01:55.957 [main] TestNgExtentListener - Test case: screenerImageLogoTest is Started
+[INFO ] 2021-07-23 12:01:55.964 [main] LoginPageTest - Login page logo test started
+[INFO ] 2021-07-23 12:01:57.668 [main] LoginPageTest - login page logo test ended
+[INFO ] 2021-07-23 12:01:57.669 [main] TestNgAllureListener - Test case: screenerImageLogoTest is Passed
+[INFO ] 2021-07-23 12:01:57.669 [main] TestNgExtentListener - Test case: screenerImageLogoTest is Passed
+[INFO ] 2021-07-23 12:02:00.089 [main] LoginPageTest - Browser closed
+[INFO ] 2021-07-23 12:02:03.044 [main] TestBase - Browser started
+[INFO ] 2021-07-23 12:02:04.137 [main] TestBase - Maximized window & deleted all cookies
+[INFO ] 2021-07-23 12:02:06.977 [main] TestBase - Opened URL
+[INFO ] 2021-07-23 12:02:06.984 [main] TestNgAllureListener - Test case: loginTest is Started
+[INFO ] 2021-07-23 12:02:06.986 [main] TestNgExtentListener - Test case: loginTest is Started
+[INFO ] 2021-07-23 12:02:09.301 [main] LoginPageTest - logged into website
+[INFO ] 2021-07-23 12:02:09.302 [main] TestNgAllureListener - Test case: loginTest is Passed
+[INFO ] 2021-07-23 12:02:09.302 [main] TestNgExtentListener - Test case: loginTest is Passed
+[INFO ] 2021-07-23 12:02:11.830 [main] LoginPageTest - Browser closed
+[INFO ] 2021-07-23 12:02:11.849 [main] TestNgAllureListener - Test Cases execution has finished Command line test
+[INFO ] 2021-07-23 12:02:12.018 [main] TestNgExtentListener - Test Cases execution has finished Command line test

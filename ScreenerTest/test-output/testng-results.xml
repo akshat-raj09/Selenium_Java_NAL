@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results retried="2" ignored="0" total="5" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-15T09:40:08 IST" name="Screener.in Test Automation Suite" finished-at="2021-07-15T09:40:49 IST" duration-ms="41307">
+  <suite started-at="2021-07-23T12:00:53 IST" name="Command line suite" finished-at="2021-07-23T12:02:11 IST" duration-ms="78154">
     <groups>
     </groups>
-    <test started-at="2021-07-15T09:40:08 IST" name="Screener.in different pages Test" finished-at="2021-07-15T09:40:49 IST" duration-ms="41307">
+    <test started-at="2021-07-23T12:00:53 IST" name="Command line test" finished-at="2021-07-23T12:02:11 IST" duration-ms="78154">
       <class name="com.screener.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4c51cf28]" started-at="2021-07-15T09:40:08 IST" name="setup" finished-at="2021-07-15T09:40:23 IST" duration-ms="15235" status="PASS">
+        <test-method is-config="true" signature="setAllureEnvironment()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:00:53 IST" name="setAllureEnvironment" finished-at="2021-07-23T12:00:53 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAllureEnvironment -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:00:54 IST" name="setup" finished-at="2021-07-23T12:01:19 IST" duration-ms="25432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPageTitleTest(java.lang.reflect.Method)[pri:1, instance:com.screener.qa.testcases.LoginPageTest@4c51cf28]" started-at="2021-07-15T09:40:23 IST" name="loginPageTitleTest" finished-at="2021-07-15T09:40:24 IST" duration-ms="270" status="PASS">
+        <test-method retried="true" signature="loginPageTitleTest(java.lang.reflect.Method)[pri:1, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:01:20 IST" name="loginPageTitleTest" description="Verifying login page title." finished-at="2021-07-23T12:01:20 IST" duration-ms="514" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -19,18 +23,179 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title does not match expected [Login - Screener1234] but found [Login - Screener]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title does not match expected [Login - Screener1234] but found [Login - Screener]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.screener.qa.testcases.TestRunnerJAR.main(TestRunnerJAR.java:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4c51cf28]" started-at="2021-07-15T09:40:24 IST" name="tearDown" finished-at="2021-07-15T09:40:27 IST" duration-ms="3351" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:01:20 IST" name="tearDown" finished-at="2021-07-23T12:01:23 IST" duration-ms="2625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4c51cf28]" started-at="2021-07-15T09:40:27 IST" name="setup" finished-at="2021-07-15T09:40:34 IST" duration-ms="7060" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:01:23 IST" name="setup" finished-at="2021-07-23T12:01:33 IST" duration-ms="9655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="screenerImageLogoTest(java.lang.reflect.Method)[pri:2, instance:com.screener.qa.testcases.LoginPageTest@4c51cf28]" started-at="2021-07-15T09:40:34 IST" name="screenerImageLogoTest" finished-at="2021-07-15T09:40:35 IST" duration-ms="418" status="PASS">
+        <test-method retried="true" signature="loginPageTitleTest(java.lang.reflect.Method)[pri:1, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:01:33 IST" name="loginPageTitleTest" description="Verifying login page title." finished-at="2021-07-23T12:01:33 IST" duration-ms="34" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title does not match expected [Login - Screener1234] but found [Login - Screener]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title does not match expected [Login - Screener1234] but found [Login - Screener]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.screener.qa.testcases.TestRunnerJAR.main(TestRunnerJAR.java:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:01:33 IST" name="tearDown" finished-at="2021-07-23T12:01:35 IST" duration-ms="2388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:01:35 IST" name="setup" finished-at="2021-07-23T12:01:43 IST" duration-ms="7948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest(java.lang.reflect.Method)[pri:1, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:01:43 IST" name="loginPageTitleTest" description="Verifying login page title." finished-at="2021-07-23T12:01:43 IST" duration-ms="33" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title does not match expected [Login - Screener1234] but found [Login - Screener]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title does not match expected [Login - Screener1234] but found [Login - Screener]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.screener.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.screener.qa.testcases.TestRunnerJAR.main(TestRunnerJAR.java:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:01:45 IST" name="tearDown" finished-at="2021-07-23T12:01:47 IST" duration-ms="2448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:01:47 IST" name="setup" finished-at="2021-07-23T12:01:55 IST" duration-ms="8032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="screenerImageLogoTest(java.lang.reflect.Method)[pri:2, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:01:55 IST" name="screenerImageLogoTest" description="Verifying screener logo on Login page." finished-at="2021-07-23T12:01:57 IST" duration-ms="1712" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,15 +206,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenerImageLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4c51cf28]" started-at="2021-07-15T09:40:35 IST" name="tearDown" finished-at="2021-07-15T09:40:37 IST" duration-ms="2486" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:01:57 IST" name="tearDown" finished-at="2021-07-23T12:02:00 IST" duration-ms="2389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4c51cf28]" started-at="2021-07-15T09:40:37 IST" name="setup" finished-at="2021-07-15T09:40:45 IST" duration-ms="7441" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:02:00 IST" name="setup" finished-at="2021-07-23T12:02:06 IST" duration-ms="6889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.reflect.Method)[pri:3, instance:com.screener.qa.testcases.LoginPageTest@4c51cf28]" started-at="2021-07-15T09:40:45 IST" name="loginTest" finished-at="2021-07-15T09:40:47 IST" duration-ms="2026" status="PASS">
+        <test-method signature="loginTest(java.lang.reflect.Method)[pri:3, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:02:06 IST" name="loginTest" description="Logging in by filling correct username &amp; password" finished-at="2021-07-23T12:02:09 IST" duration-ms="2317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,11 +225,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4c51cf28]" started-at="2021-07-15T09:40:47 IST" name="tearDown" finished-at="2021-07-15T09:40:49 IST" duration-ms="2454" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.screener.qa.testcases.LoginPageTest@4aa83f4f]" started-at="2021-07-23T12:02:09 IST" name="tearDown" finished-at="2021-07-23T12:02:11 IST" duration-ms="2472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.screener.qa.testcases.LoginPageTest -->
-    </test> <!-- Screener.in different pages Test -->
-  </suite> <!-- Screener.in Test Automation Suite -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
 </testng-results>
