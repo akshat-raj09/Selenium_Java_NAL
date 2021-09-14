@@ -45,21 +45,21 @@ Framework include below capabilities :-
 
 ## Run Locally
 
-Clone the project
+- Clone the project
 
 ```bash
   git clone https://github.com/akshat-raj09/Selenium_Java_NAL
 ```
 
-Go to the project directory
+- Go to the project directory
 
 ```bash
   cd Selenium_Java_NAL
 ```
 
-    1. Goto your Eclipse/IntelliJ IDE & import all the 3 projects one by one.
+- Open your Eclipse/IntelliJ IDE & import all the 3 projects one by one.
 
-    2. Run each project by:- Right click on testng.xml & select run as TestNG.
+- Run each project by:- Right click on testng.xml & select run as TestNG.
     
 ## Contributing
 
