@@ -4,44 +4,44 @@
 
 This repo contains 3 Maven projects :-
 
-- ScreenerTest
-- Selenium Sessions NAL
-- SingletonPattern
+- ***[Selenium Sessions NAL](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/Selenium%20Sessions%20NAL)***
+- ***[SingletonPattern](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/SingletonPattern)***
+- ***[ScreenerTest](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/ScreenerTest)***
 
-### [1. Selenium Sessions NAL](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/Selenium%20Sessions%20NAL) :
+### 1. Selenium Sessions NAL :
 This project describes basic concepts of Selenium & TestNG. This should give great start for beginner to selenium world.
 
-- [Selenium Basic Concepts](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/Selenium%20Sessions%20NAL/src/seleniumBasics)
+- *[Selenium Basic Concepts](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/Selenium%20Sessions%20NAL/src/seleniumBasics).*
 
-- [TestNG Concepts](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/Selenium%20Sessions%20NAL/src/com/testNG)
+- *[TestNG Basic Concepts](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/Selenium%20Sessions%20NAL/src/com/testNG).*
 
-### [2. SingletonPattern](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/SingletonPattern) :
+### 2. SingletonPattern :
 This Maven project demonstrates how to use Singleton Pattern in Selenium Webdriver.
 
-### [3. ScreenerTest](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/ScreenerTest) :
+### 3. ScreenerTest :
 This is basic level test automation framework created using Selenium - TestNG, this should give great start for beginner to selenium world.
 
 Most of us learn all selenium concepts, but when it comes to framework development, we lag there. This framework should help you on this.
 
-Framework include below capabilities :-
+***Framework include below capabilities :-***
 
-(i) Selenium - TestNG - Java.
+**(i)** Selenium - TestNG - Java.
 
-(ii) Page Object Model (Page Factory).
+**(ii)** Page Object Model (Page Factory).
 
-(iii) Data Driven Framework (using Apache POI API to read data from excel files) - Using dataprovider TestNG Annotation.
+**(iii)** Data Driven Framework (using Apache POI API to read data from excel files) - Using dataprovider TestNG Annotation.
 
-(iv) Extent Report Included.
+**(iv)** Extent Report Included.
 
-(v) Allure Report Included.
+**(v)** Allure Report Included.
 
-(vi) Contains executable JAR file of the whole project.
+**(vi)** Contains executable JAR file of the whole project.
 
-(vii) Included Log4j API for generating logs.
+**(vii)** Included Log4j API for generating logs.
 
-(viii) Automatic screenshot Capture of failed test cases & attaching those screenshots to Allure Report & Extent Report.
+**(viii)** Automatic screenshot Capture of failed test cases & attaching those screenshots to Allure Report & Extent Report.
 
-(ix) Video recording of test cases using Monte Video Recorder API.
+**(ix)** Video recording of test cases using Monte Video Recorder API.
 
 ## Run Locally
 
@@ -59,7 +59,9 @@ Framework include below capabilities :-
 
 - Open your Eclipse/IntelliJ IDE & import all the 3 projects one by one.
 
-- Run each project by:- Right click on testng.xml & select run as TestNG.
+- Search for testng.xml file inside each project.
+
+- Run each project by :- Right click on testng.xml ------> Select Run As ------> TestNG.
     
 ## Contributing
 
